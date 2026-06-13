@@ -71,6 +71,11 @@ export function useStore() {
     setProgress(defaultProgress());
   }, []);
 
+  // replace progress wholesale (used by cloud sync after merging)
+  const hydrate = useCallback((p: Progress) => {
+    setProgress(p);
+  }, []);
+
   const available = useMemo(
     () => availableCount(course.cards, progress, now()),
     [progress],
@@ -95,6 +100,7 @@ export function useStore() {
     recordDrill,
     saveSim,
     reset,
+    hydrate,
   };
 }
 

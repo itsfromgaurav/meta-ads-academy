@@ -9,11 +9,13 @@ import Browse from './components/Browse';
 import Bookmarks from './components/Bookmarks';
 import Simulator from './components/Simulator';
 import Drills from './components/Drills';
+import AuthBar from './components/AuthBar';
+import CloudSync from './components/CloudSync';
 import { drillsFor } from './data/drills';
 
 type View = 'home' | 'session' | 'complete' | 'browse' | 'bookmarks' | 'simulator' | 'drills';
 
-export default function App() {
+export default function App({ syncEnabled = false }: { syncEnabled?: boolean }) {
   const store = useStore();
   const [view, setView] = useState<View>('home');
   const [queue, setQueue] = useState<Card[]>([]);
@@ -53,6 +55,9 @@ export default function App() {
       {/* ambient breathing dot field */}
       <div className="pointer-events-none fixed inset-0 dotfield animate-breathe opacity-40" />
       <div className="pointer-events-none fixed inset-x-0 top-0 h-64 bg-gradient-to-b from-indigo/10 to-transparent" />
+
+      {syncEnabled && <AuthBar />}
+      {syncEnabled && <CloudSync store={store} />}
 
       <div className="relative z-10 min-h-screen">
         {view === 'home' && (
