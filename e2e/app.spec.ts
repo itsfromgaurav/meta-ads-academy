@@ -1,8 +1,38 @@
 import { test, expect } from '@playwright/test';
 
-// Each Playwright test runs in a fresh browser context, so localStorage
-// starts empty — no manual clearing needed (and clearing on every reload
-// would wrongly wipe the persistence we want to assert).
+// Each Playwright test runs in a fresh browser context, so localStorage starts
+// empty. By default we mark first-run onboarding as already seen so these tests
+// exercise the core app directly; the dedicated onboarding test below opts back in.
+const ONB_KEY = 'meta-ads-academy:onboarding:v1';
+
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(
+    (k) => localStorage.setItem(k, JSON.stringify({ welcomeSeen: true, swipeCoachSeen: true })),
+    ONB_KEY,
+  );
+});
+
+test('first-run onboarding: welcome → first session → gesture coach', async ({ page }) => {
+  // opt back into onboarding (runs after the beforeEach script, so it wins)
+  await page.addInitScript(
+    (k) => localStorage.setItem(k, JSON.stringify({ welcomeSeen: false, swipeCoachSeen: false })),
+    ONB_KEY,
+  );
+  await page.goto('/');
+
+  // welcome modal greets a new user
+  await expect(page.getByText(/Learn Meta ads in/i)).toBeVisible();
+  await page.getByRole('button', { name: /Start learning/i }).first().click();
+
+  // drops straight into a session with the gesture coach
+  await expect(page.getByText(/How it works/i)).toBeVisible();
+  await page.getByRole('button', { name: /start swiping/i }).click();
+  await expect(page.getByText(/How it works/i)).toBeHidden();
+
+  // and it's remembered
+  const seen = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) || '{}'), ONB_KEY);
+  expect(seen).toEqual({ welcomeSeen: true, swipeCoachSeen: true });
+});
 
 test('home renders the hero and curriculum', async ({ page }) => {
   await page.goto('/');

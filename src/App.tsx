@@ -11,16 +11,23 @@ import Simulator from './components/Simulator';
 import Drills from './components/Drills';
 import AuthBar from './components/AuthBar';
 import CloudSync from './components/CloudSync';
+import Welcome from './components/Welcome';
 import { drillsFor } from './data/drills';
+import { useOnboarding } from './lib/onboarding';
 
 type View = 'home' | 'session' | 'complete' | 'browse' | 'bookmarks' | 'simulator' | 'drills';
 
 export default function App({ syncEnabled = false }: { syncEnabled?: boolean }) {
   const store = useStore();
+  const onboarding = useOnboarding();
   const [view, setView] = useState<View>('home');
   const [queue, setQueue] = useState<Card[]>([]);
   const [result, setResult] = useState({ learned: 0, reviewed: 0 });
   const [drillModule, setDrillModule] = useState<{ domain: string; title: string } | null>(null);
+
+  // Only greet genuinely-new users: skip the welcome for anyone with prior activity.
+  const hasActivity = store.mastery.known + store.mastery.learning > 0 || store.progress.streak.count > 0;
+  const showWelcome = !onboarding.flags.welcomeSeen && !hasActivity && view === 'home';
 
   function openDrills(domain: string, title: string) {
     setDrillModule({ domain, title });
@@ -59,6 +66,17 @@ export default function App({ syncEnabled = false }: { syncEnabled?: boolean }) 
       {syncEnabled && <AuthBar />}
       {syncEnabled && <CloudSync store={store} />}
 
+      {showWelcome && (
+        <Welcome
+          cardCount={store.course.cards.length}
+          onStart={() => {
+            onboarding.dismissWelcome();
+            startDaily();
+          }}
+          onSkip={onboarding.dismissWelcome}
+        />
+      )}
+
       <div className="relative z-10 min-h-screen">
         {view === 'home' && (
           <Home
@@ -72,7 +90,14 @@ export default function App({ syncEnabled = false }: { syncEnabled?: boolean }) 
         )}
         {view === 'session' && (
           <div className="h-screen">
-            <Deck store={store} queue={queue} onComplete={handleComplete} onExit={() => setView('home')} />
+            <Deck
+              store={store}
+              queue={queue}
+              onComplete={handleComplete}
+              onExit={() => setView('home')}
+              showCoach={!onboarding.flags.swipeCoachSeen}
+              onCoachSeen={onboarding.dismissSwipeCoach}
+            />
           </div>
         )}
         {view === 'complete' && (

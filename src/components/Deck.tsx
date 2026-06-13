@@ -4,24 +4,34 @@ import { Check, RotateCcw, X } from 'lucide-react';
 import type { Card, SwipeAction } from '../types';
 import type { Store } from '../lib/useStore';
 import SwipeCard from './SwipeCard';
+import SwipeCoach from './SwipeCoach';
 
 interface Props {
   store: Store;
   queue: Card[];
   onComplete: (learned: number) => void;
   onExit: () => void;
+  showCoach?: boolean;
+  onCoachSeen?: () => void;
 }
 
-export default function Deck({ store, queue, onComplete, onExit }: Props) {
+export default function Deck({ store, queue, onComplete, onExit, showCoach, onCoachSeen }: Props) {
   const [index, setIndex] = useState(0);
   const [learned, setLearned] = useState(0);
+  const [coach, setCoach] = useState(!!showCoach);
   const total = queue.length;
   const card = queue[index];
+
+  function dismissCoach() {
+    setCoach(false);
+    onCoachSeen?.();
+  }
 
   const top3 = useMemo(() => queue.slice(index, index + 3).reverse(), [queue, index]);
 
   function resolve(action: SwipeAction) {
     if (!card) return;
+    if (coach) dismissCoach();
     store.recordSwipe(card, action);
     if (action === 'known') setLearned((n) => n + 1);
     const next = index + 1;
@@ -60,6 +70,7 @@ export default function Deck({ store, queue, onComplete, onExit }: Props) {
 
       {/* card stack */}
       <div className="relative flex-1">
+        {coach && <SwipeCoach onDismiss={dismissCoach} />}
         <AnimatePresence>
           {top3.map((c, i) => {
             const depth = top3.length - 1 - i; // 0 = top
