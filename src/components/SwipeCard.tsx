@@ -1,5 +1,12 @@
-import { useState } from 'react';
-import { motion, useMotionValue, useTransform, type PanInfo } from 'framer-motion';
+import { forwardRef, useImperativeHandle, useRef, useState } from 'react';
+import {
+  animate,
+  motion,
+  useMotionValue,
+  useReducedMotion,
+  useTransform,
+  type PanInfo,
+} from 'framer-motion';
 import { Bookmark, RotateCw } from 'lucide-react';
 import type { Card, SwipeAction } from '../types';
 import { typeMeta, DIFFICULTY_LABEL } from '../lib/ui';
@@ -12,22 +19,51 @@ interface Props {
   onBookmark: () => void;
 }
 
+export interface SwipeCardHandle {
+  fling: (action: SwipeAction) => void;
+}
+
 const SWIPE_X = 110; // px threshold
 const SWIPE_UP = 130;
+const EASE_OUT_EXPO = [0.16, 1, 0.3, 1] as const;
 
-export default function SwipeCard({ card, active, bookmarked, onResolve, onBookmark }: Props) {
+const SwipeCard = forwardRef<SwipeCardHandle, Props>(function SwipeCard(
+  { card, active, bookmarked, onResolve, onBookmark },
+  ref,
+) {
   const [flipped, setFlipped] = useState(false);
+  const reduce = useReducedMotion();
+  const leaving = useRef(false);
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotate = useTransform(x, [-220, 220], [-14, 14]);
+  const rotate = useTransform(x, [-260, 260], [-16, 16]);
   const knownOpacity = useTransform(x, [20, SWIPE_X], [0, 1]);
   const reviewOpacity = useTransform(x, [-SWIPE_X, -20], [1, 0]);
   const meta = typeMeta(card.type);
 
+  // fling the card off-screen in the decision's direction, then resolve
+  function fling(action: SwipeAction) {
+    if (leaving.current) return;
+    leaving.current = true;
+    if (reduce) {
+      onResolve(action);
+      return;
+    }
+    if (action === 'skip') {
+      animate(y, -560, { duration: 0.24, ease: EASE_OUT_EXPO }).then(() => onResolve(action));
+      return;
+    }
+    const dx = action === 'known' ? 560 : -560;
+    animate(y, 40, { duration: 0.24, ease: EASE_OUT_EXPO });
+    animate(x, dx, { duration: 0.24, ease: EASE_OUT_EXPO }).then(() => onResolve(action));
+  }
+
+  useImperativeHandle(ref, () => ({ fling }));
+
   function handleDragEnd(_: unknown, info: PanInfo) {
     const { offset } = info;
-    if (offset.x > SWIPE_X) return onResolve('known');
-    if (offset.x < -SWIPE_X) return onResolve('review');
+    if (offset.x > SWIPE_X) return fling('known');
+    if (offset.x < -SWIPE_X) return fling('review');
     if (offset.y < -SWIPE_UP) {
       onBookmark();
       return;
@@ -49,8 +85,8 @@ export default function SwipeCard({ card, active, bookmarked, onResolve, onBookm
       onDragEnd={handleDragEnd}
       whileTap={{ cursor: 'grabbing' }}
       onTap={() => active && setFlipped((f) => !f)}
-      initial={{ scale: 0.96, opacity: 0, y: 12 }}
-      animate={{ scale: 1, opacity: 1, y: 0 }}
+      initial={{ scale: 0.96, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.18, ease: [0.4, 0, 0.2, 1] }}
     >
@@ -152,4 +188,6 @@ export default function SwipeCard({ card, active, bookmarked, onResolve, onBookm
       </div>
     </motion.div>
   );
-}
+});
+
+export default SwipeCard;

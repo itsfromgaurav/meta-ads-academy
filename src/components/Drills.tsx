@@ -138,7 +138,9 @@ function DrillCard({ drill, onNext }: { drill: Drill; onNext: (correct: boolean)
 
   return (
     <div className="shell">
-      <div className="rounded-[2px] bg-ink p-6">
+      <div
+        className={`rounded-[2px] bg-ink p-6 ${submitted && !correct ? 'animate-nudge' : ''}`}
+      >
         <p className="font-body text-[14px] leading-relaxed text-zinc-300">{drill.scenario}</p>
         <h3 className="mt-3 font-display text-[19px] font-medium leading-snug text-white">{drill.question}</h3>
 
@@ -203,7 +205,7 @@ function DrillCard({ drill, onNext }: { drill: Drill; onNext: (correct: boolean)
           <div className="mt-5">
             <div
               className={`mb-3 flex items-center gap-2 font-body text-[13px] font-medium ${
-                correct ? 'text-emerald-400' : 'text-rose-400'
+                correct ? 'text-emerald-400 animate-pop' : 'text-rose-400'
               }`}
             >
               {correct ? <Check size={16} /> : <X size={16} />} {correct ? 'Correct' : 'Not quite'}
@@ -214,7 +216,7 @@ function DrillCard({ drill, onNext }: { drill: Drill; onNext: (correct: boolean)
             </div>
             <button
               onClick={() => onNext(correct)}
-              className="mt-4 w-full rounded-full bg-white py-2.5 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
+              className="press mt-4 w-full rounded-full bg-white py-2.5 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
             >
               Continue
             </button>
@@ -223,7 +225,7 @@ function DrillCard({ drill, onNext }: { drill: Drill; onNext: (correct: boolean)
           <button
             onClick={submit}
             disabled={!canSubmit}
-            className="mt-5 w-full rounded-full bg-indigo py-2.5 font-body text-[14px] font-medium text-white transition-colors hover:bg-indigo-deep disabled:cursor-not-allowed disabled:opacity-40"
+            className="press mt-5 w-full rounded-full bg-indigo py-2.5 font-body text-[14px] font-medium text-white transition-colors hover:bg-indigo-deep disabled:cursor-not-allowed disabled:opacity-40"
           >
             Check answer
           </button>

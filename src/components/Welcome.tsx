@@ -60,7 +60,7 @@ export default function Welcome({ onStart, onSkip, cardCount }: Props) {
 
             <button
               onClick={onStart}
-              className="group mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
+              className="press group mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
             >
               Start learning
               <ChevronRight size={16} className="transition-transform group-hover:translate-x-0.5" />

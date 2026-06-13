@@ -39,14 +39,14 @@ export default function Complete({ store, learned, reviewed, onHome, onMore }: P
         {remaining > 0 && (
           <button
             onClick={onMore}
-            className="w-full rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
+            className="press w-full rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
           >
             Keep going · {Math.min(progress.dailyGoal, remaining)} more
           </button>
         )}
         <button
           onClick={onHome}
-          className="w-full rounded-full border border-white/12 py-3 font-body text-[14px] text-zinc-200 transition-colors hover:border-white/30"
+          className="press w-full rounded-full border border-white/12 py-3 font-body text-[14px] text-zinc-200 transition-colors hover:border-white/30"
         >
           Back home
         </button>

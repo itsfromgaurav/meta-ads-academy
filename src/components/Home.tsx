@@ -91,7 +91,7 @@ export default function Home({ store, onStart, onBrowse, onBookmarks, onSimulato
           <button
             onClick={onStart}
             disabled={studyCount === 0}
-            className="group flex w-full items-center justify-center gap-2 rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-all hover:bg-zinc-200 disabled:cursor-not-allowed disabled:opacity-40"
+            className="press group flex w-full items-center justify-center gap-2 rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-all hover:bg-zinc-200 disabled:cursor-not-allowed disabled:opacity-40"
           >
             {studyCount === 0 ? 'All caught up — come back tomorrow' : "Start learning"}
             {studyCount > 0 && <ChevronRight size={16} className="transition-transform group-hover:translate-x-0.5" />}

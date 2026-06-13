@@ -124,7 +124,7 @@ export default function Simulator({ store, onBack }: Props) {
       <div className="mt-6 flex gap-2">
         <button
           onClick={launch}
-          className="flex flex-1 items-center justify-center gap-2 rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
+          className="press flex flex-1 items-center justify-center gap-2 rounded-full bg-white py-3 font-body text-[14px] font-medium text-black transition-colors hover:bg-zinc-200"
         >
           <Play size={15} /> Launch (simulated)
         </button>
@@ -169,7 +169,7 @@ function Results({ result, cfg }: { result: SimResult; cfg: CampaignConfig }) {
       {/* score banner */}
       <div className="shell mb-3">
         <div className="dotfield flex items-center gap-4 rounded-[2px] bg-ink p-5">
-          <div className={`font-display text-[44px] font-medium leading-none ${gradeColor(result.grade)}`}>{result.grade}</div>
+          <div className={`font-display text-[44px] font-medium leading-none animate-pop ${gradeColor(result.grade)}`}>{result.grade}</div>
           <div className="flex-1">
             <div className="font-display text-[20px] font-medium text-white">{result.score}/100</div>
             <div className="font-body text-[11px] uppercase tracking-wider text-faint">

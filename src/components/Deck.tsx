@@ -1,9 +1,9 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { Check, RotateCcw, X } from 'lucide-react';
 import type { Card, SwipeAction } from '../types';
 import type { Store } from '../lib/useStore';
-import SwipeCard from './SwipeCard';
+import SwipeCard, { type SwipeCardHandle } from './SwipeCard';
 import SwipeCoach from './SwipeCoach';
 
 interface Props {
@@ -19,12 +19,19 @@ export default function Deck({ store, queue, onComplete, onExit, showCoach, onCo
   const [index, setIndex] = useState(0);
   const [learned, setLearned] = useState(0);
   const [coach, setCoach] = useState(!!showCoach);
+  const activeCard = useRef<SwipeCardHandle>(null);
   const total = queue.length;
   const card = queue[index];
 
   function dismissCoach() {
     setCoach(false);
     onCoachSeen?.();
+  }
+
+  // route button taps through the card so it flings off-screen, then resolves
+  function act(action: SwipeAction) {
+    if (activeCard.current) activeCard.current.fling(action);
+    else resolve(action);
   }
 
   const top3 = useMemo(() => queue.slice(index, index + 3).reverse(), [queue, index]);
@@ -88,6 +95,7 @@ export default function Deck({ store, queue, onComplete, onExit, showCoach, onCo
                 }}
               >
                 <SwipeCard
+                  ref={isTop ? activeCard : undefined}
                   card={c}
                   active={isTop}
                   bookmarked={!!store.progress.cards[c.id]?.bookmarked}
@@ -103,22 +111,22 @@ export default function Deck({ store, queue, onComplete, onExit, showCoach, onCo
       {/* action buttons */}
       <div className="flex items-center justify-center gap-5 py-7">
         <button
-          onClick={() => resolve('review')}
-          className="flex h-14 w-14 items-center justify-center rounded-full border border-rose-400/30 bg-rose-400/5 text-rose-400 transition-all hover:scale-105 hover:bg-rose-400/15"
+          onClick={() => act('review')}
+          className="press flex h-14 w-14 items-center justify-center rounded-full border border-rose-400/30 bg-rose-400/5 text-rose-400 transition-all hover:scale-105 hover:bg-rose-400/15"
           aria-label="Review again"
         >
           <X size={22} />
         </button>
         <button
-          onClick={() => resolve('skip')}
-          className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-faint transition-all hover:scale-105 hover:text-white"
+          onClick={() => act('skip')}
+          className="press flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-faint transition-all hover:scale-105 hover:text-white"
           aria-label="Skip"
         >
           <RotateCcw size={16} />
         </button>
         <button
-          onClick={() => resolve('known')}
-          className="flex h-14 w-14 items-center justify-center rounded-full border border-emerald-400/30 bg-emerald-400/5 text-emerald-400 transition-all hover:scale-105 hover:bg-emerald-400/15"
+          onClick={() => act('known')}
+          className="press flex h-14 w-14 items-center justify-center rounded-full border border-emerald-400/30 bg-emerald-400/5 text-emerald-400 transition-all hover:scale-105 hover:bg-emerald-400/15"
           aria-label="Got it"
         >
           <Check size={22} />
