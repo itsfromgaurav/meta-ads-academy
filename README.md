@@ -2,7 +2,9 @@
 
 A **Tinder-swipeable, self-paced learning course** that teaches Facebook/Instagram advertising one card at a time — distilled from *Ultimate Guide to Facebook Advertising (3rd ed.)* and corrected for modern Meta.
 
-**441 bite-size cards · 15 modules · spaced repetition · daily streaks.**
+**▶︎ Live demo: https://meta-ads-academy-green.vercel.app**
+
+**441 bite-size cards · 117 apply drills · a campaign simulator · 15 modules · spaced repetition · daily streaks.**
 
 ## What it does
 
