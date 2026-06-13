@@ -1,0 +1,226 @@
+{
+  "domain": "scaling",
+  "module_title": "Scaling",
+  "cards": [
+    {
+      "id": "scaling-naive-budget-multiplication-pitfall",
+      "type": "pitfall",
+      "title": "Why $10/day to $100/day doesn't 10x your results",
+      "front": "You 10x your daily budget at the same CPA. Do you get 10x the revenue?",
+      "back": "No. Naive budget multiplication does NOT yield proportional results. Scaling by budget alone feels like a 'jerky rollercoaster': results go up, down, get stuck, sometimes recover, sometimes don't; Facebook may stop showing your ads; conversion costs can skyrocket. Like the Soup Nazi, once your 'order' (budget) is set, sudden changes can make Facebook 'punish' the campaign. Use the structured five-method system instead.",
+      "example": "$10/day to $100/day does not produce a 10x revenue increase at the same CPA.",
+      "tags": ["budgeting", "pitfalls", "algorithm"],
+      "difficulty": 1,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-foundation-first-flight-plan",
+      "type": "concept",
+      "title": "Why scaling assumes a sound foundation",
+      "front": "Before you scale a winner, what must already be true?",
+      "back": "Scaling assumes a sound foundation. Executing the first two Facebook Flight Plan stages correctly (Chapters 16-20) builds a foundation for massive scale and long-term ROI for both campaigns and the business. The next stage builds a true perpetual customer-generation system spanning the whole journey: awareness, engagement, fans, leads, sales, recovered abandoned sales, repeat sales, and brand goodwill. Principle: get the foundation right FIRST, then scale on top of it.",
+      "example": "",
+      "tags": ["flight-plan", "foundation", "strategy"],
+      "difficulty": 1,
+      "chapter": "Ch. 16-20"
+    },
+    {
+      "id": "scaling-five-tier-system-overview",
+      "type": "framework",
+      "title": "The Five-Tier Scaling System, in order",
+      "front": "What are the five scaling methods, and in what order do you try them?",
+      "back": "Ralph Burns' Five-Tier Scaling System grows small winners into large campaigns while holding target CPA. Try each method in order — 1 before 2, 2 before 3, etc.:\n- 1. Duplication Scaling\n- 2. Audience Scaling\n- 3. Alteration Scaling\n- 4. Large Budget Scaling\n- 5. Small Budget Scaling\nThere is no one-size-fits-all to scaling; together these reach large audiences without Facebook's 'jerky rollercoaster.' They work best alongside the proprietary Michigan Method. Combining all five at once is called Massive Rapid Scaling.",
+      "example": "",
+      "tags": ["five-tier-scaling", "framework", "michigan-method"],
+      "difficulty": 1,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-pre-scale-readiness-checklist",
+      "type": "checklist",
+      "title": "Is this ad set ready to scale?",
+      "front": "How do you know an ad set is 'performing well' enough to scale?",
+      "back": "Pre-scale readiness (per ad set):\n- Ad set has at least 10 conversions\n- CPA is below your desired target\n- You have enough data to feel confident\n- (Duplication/Alteration) Audience is large, ideally >1 million\n'Performing Well' = at least 10 conversions in an ad set below desired CPA. Have enough data and feel confident before scaling.",
+      "example": "",
+      "tags": ["checklist", "readiness", "benchmarks"],
+      "difficulty": 1,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier-order-pitfall",
+      "type": "pitfall",
+      "title": "Don't jump straight to aggressive budget scaling",
+      "front": "Tempted to skip to Large Budget Scaling on a hot winner?",
+      "back": "Skipping the order of tiers is a pitfall. Try method 1 before 2, 2 before 3, etc. — don't jump straight to aggressive budget scaling. The tiers are ordered for a reason: start with the safest (Duplication) and only escalate to budget-based methods once gentler approaches are exhausted.",
+      "example": "",
+      "tags": ["five-tier-scaling", "pitfalls", "order"],
+      "difficulty": 1,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier1-duplication-what",
+      "type": "tactic",
+      "title": "Tier 1: Duplication Scaling — the safest first move",
+      "front": "What's the simplest, safest way to scale a winning ad set?",
+      "back": "Tier 1 — Duplication Scaling: Make exact copies of a well-performing ad set, keeping the SAME starting budget and the SAME Post ID. When to use: CPA is $100 or lower, and the ad set has at least 10 conversions below desired CPA. Works best on large audiences, ideally >1 million — smaller audiences support fewer ad sets and frequency rises faster (raising costs). Key rule: always duplicate the ORIGINAL ad, not the duplicate ad sets.",
+      "example": "",
+      "tags": ["five-tier-scaling", "duplication", "post-id"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier1-duplication-process",
+      "type": "checklist",
+      "title": "Tier 1 step-by-step in Ads Manager",
+      "front": "What are the exact Ads Manager steps to duplicate a winning ad set?",
+      "back": "Duplication Scaling process:\n- 1. Set calendar to last seven days\n- 2. Sort ad sets by CPA, smallest to largest\n- 3. Screen by conversion volume; select all ads at or below your CPA\n- 4. Highlight those ads, click Create Similar Ad Set\n- 5. Review and press Place Order\n- 6. Facebook auto-appends '-copy'; search it and rename all with 'DUP' plus the date or version number\n- 7. Hit Edit, scroll to Budget and Schedule, enter the daily budget\n- 8. Select all duplicates, click Enter Post ID, insert the original ad's Post ID, press Submit",
+      "example": "",
+      "tags": ["five-tier-scaling", "duplication", "ads-manager"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier2-audience-scaling",
+      "type": "tactic",
+      "title": "Tier 2: Audience Scaling — new interests, same creative",
+      "front": "How do you broaden reach into brand-new audiences without touching your creative?",
+      "back": "Tier 2 — Audience Scaling broadens reach into new audiences. Advanced execution: duplicate your entire Michigan Method campaign, then replace the original 20 interests with 20 new interests, keeping the same creative.",
+      "example": "",
+      "tags": ["five-tier-scaling", "audience", "michigan-method"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier3-alteration-scaling",
+      "type": "tactic",
+      "title": "Tier 3: Alteration Scaling — a fresh look for the same audience",
+      "front": "How do you escape viewers' 'seen that' blind spot without new audiences?",
+      "back": "Tier 3 — Alteration Scaling: like Duplication, but make minor, data-driven creative/copy tweaks to give the ad a fresh look for the same audience. Tweak examples: change a statement into a question; insert brackets or emojis; combine the image of one winning ad with the copy of another; swap the image for a similar-themed one. Keep audiences LARGE so different ads aren't seen too frequently. Base every change on data — use best-performing content (including hook and offer) presented slightly differently.",
+      "example": "",
+      "tags": ["five-tier-scaling", "alteration", "creative"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier3-alteration-9-variations",
+      "type": "tactic",
+      "title": "Tier 3 advanced: how 3 + 3 becomes 9 variations",
+      "front": "How do 3 creatives and 3 copies turn into 9 ad variations?",
+      "back": "Alteration Scaling advanced execution: after duplicating your campaign, create 3 new creatives and 3 new pieces of ad copy — combining each copy with each creative yields 9 different ad variations. Use the original 20 interests in the original Michigan Method campaign. Rename ads to reflect the variation, e.g. '[name] Copy 7 Img 3'.",
+      "example": "3 creatives x 3 copies = 9 ad variations",
+      "tags": ["five-tier-scaling", "alteration", "naming"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier4-large-budget",
+      "type": "tactic",
+      "title": "Tier 4: Large Budget Scaling — 5-20x into new campaigns",
+      "front": "Ready to spend big? How do you do Large Budget Scaling without blowing up the algorithm?",
+      "back": "Tier 4 — Large Budget Scaling: duplicate winning ad sets into NEW campaigns and increase budget 5-20x the original. Best practice: set daily budget to 2-3x your target CPA. Process: duplicate your lowest-CPA ad sets into a new campaign, then increase daily budget to your comfort level, ideally 2-3x CPA. Be extremely cautious — you spend much more and ramping budgets can wreak havoc with the algorithm.",
+      "example": "$25 CPA, original $10/day to $50-$75/day new ad-set budget; $100 CPA to $300/day (3x).",
+      "tags": ["five-tier-scaling", "large-budget", "budgeting"],
+      "difficulty": 3,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier4-over-aggressive-pitfall",
+      "type": "pitfall",
+      "title": "Why pushing past 3x CPA usually fails",
+      "front": "What happens when you get more aggressive than 3x CPA on budget?",
+      "back": "Being more aggressive than 3x CPA works about 1 in 5 times — only worth trying with a really hot offer. Ramping budgets too fast can wreak havoc with the algorithm. Disclosure: one advertiser always starts at $300/day and usually gets a $3 cost per lead — but they have amazing offers; guidelines are experience-based, not absolute.",
+      "example": "$300/day to ~$3 cost per lead, possible only with amazing offers.",
+      "tags": ["five-tier-scaling", "large-budget", "pitfalls"],
+      "difficulty": 3,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier4-ninja-age-trick",
+      "type": "tactic",
+      "title": "The age-range Ninja trick for big budget jumps",
+      "front": "How do you stop your scaled ad sets from competing with each other in the auction?",
+      "back": "Ninja trick: when increasing daily budgets by large amounts (e.g., $100 to $300), change the LOWER end of your age range by one year — Facebook treats this as a different audience and won't see your ads as competing with your others.",
+      "example": "$100 to $300 budget jump + drop the lower age bound by one year.",
+      "tags": ["five-tier-scaling", "large-budget", "auction"],
+      "difficulty": 3,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier4-timing-mornings",
+      "type": "tactic",
+      "title": "Why you launch new campaigns in the morning",
+      "front": "Morning or evening — when should you launch a new scaled campaign?",
+      "back": "Timing: start new campaigns in the MORNINGS (little difference between midnight and early morning). Avoid EVENINGS — Facebook spends only a small portion of the daily budget before day's end, skewing results. Launching in the evening is a pitfall: it gives you a misleading read on performance.",
+      "example": "",
+      "tags": ["five-tier-scaling", "timing", "best-practices"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier5-small-budget",
+      "type": "tactic",
+      "title": "Tier 5: Small Budget Scaling — 20% every 3 days",
+      "front": "On a tight budget and want the most conservative scale possible?",
+      "back": "Tier 5 — Small Budget Scaling, the most conservative method. Instead of jumping to 2-3x CPA, raise the budget ~20% every three days until CPA exceeds target, then roll back. Process:\n- 1. Set calendar to last seven days\n- 2. Sort ad sets by CPA smallest to largest\n- 3. Screen by conversion volume for lowest-CPA ad sets\n- 4. Click Edit, increase daily budget 15-20%; Save and close\n- 5. Every three days, check CPA is below target; if so, increase another 15-20%\n- 6. When target CPA is exceeded, roll back by at least two increments",
+      "example": "$10/day to $12/day to wait 3 days to +20% to ~double over time; if CPA exceeded, roll back two increments.",
+      "tags": ["five-tier-scaling", "small-budget", "budgeting"],
+      "difficulty": 3,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-tier5-cautions",
+      "type": "pitfall",
+      "title": "When Small Budget Scaling becomes unmanageable",
+      "front": "What are the limits and traps of the 20%-every-3-days method?",
+      "back": "Small Budget Scaling notes: it solves Facebook's dislike of sudden large budget jumps. Results may be skewed for 72 hours while Facebook adjusts; three days is a guide — speed up increments if the campaign settles faster. It's very labor intensive — managing MORE than ten ad sets this way becomes unmanageable; useful on a tight budget. View increase history under the individual ad set by clicking 'amount spent'; hover the green line to see the budget before you exceeded target CPA.",
+      "example": "",
+      "tags": ["five-tier-scaling", "small-budget", "pitfalls"],
+      "difficulty": 3,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-72-hour-window-pitfall",
+      "type": "pitfall",
+      "title": "Don't judge a budget change inside 72 hours",
+      "front": "You bumped the budget yesterday and CPA looks ugly. Panic?",
+      "back": "Reading results inside the 72-hour adjustment window is a pitfall. Allow Facebook ~3 days (72 hours) to settle before judging a budget change — results may be skewed while the algorithm adjusts. Three days is a guide; you can increase increment speed if the campaign settles faster.",
+      "example": "",
+      "tags": ["algorithm", "pitfalls", "timing"],
+      "difficulty": 2,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-naming-conventions-template",
+      "type": "template",
+      "title": "Naming conventions for tracking scaled entities",
+      "front": "How do you keep duplicated and altered ad sets organized?",
+      "back": "Ad set / ad naming conventions for tracking scaled entities:\n- Duplication Scaling — rename auto-created '-copy' ad sets to: DUP <date-or-version-number>\n- Alteration Scaling — rename to reflect the variation: [name] Copy 7 Img 3\nFacebook auto-appends '-copy'; search that phrase and rename to track duplicates.",
+      "example": "DUP 0613 ; [Spring Promo] Copy 7 Img 3",
+      "tags": ["templates", "naming", "organization"],
+      "difficulty": 1,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-massive-rapid-scaling",
+      "type": "framework",
+      "title": "Massive Rapid Scaling — all five tiers at once",
+      "front": "Want to go really big really fast? What does combining all tiers look like?",
+      "back": "Massive Rapid Scaling combines all five strategies SIMULTANEOUSLY. Example: use duplication to add ad sets within the same campaign AND create a brand-new campaign; use audience scaling to broaden into new audiences; create more ads/ad sets/campaigns via alteration scaling; and increase spend via large budget scaling — all at once.",
+      "example": "",
+      "tags": ["five-tier-scaling", "massive-rapid-scaling", "advanced"],
+      "difficulty": 3,
+      "chapter": ""
+    },
+    {
+      "id": "scaling-play-the-orchestra-system",
+      "type": "concept",
+      "title": "Build a cloneable system, not personal talent",
+      "front": "Why does a repeatable system beat lone-star brilliance for scaling?",
+      "back": "Long-term, scalable success comes from a repeatable, systematized methodology others can execute — 'play the orchestra' — not lone-star brilliance. Twins parable: James built a teaching system, trained 12 junior instructors, and scaled beyond his own hours (packed calendar, mile-long waiting list, 10,000 sq ft studio); Ricky relied solely on personal talent and stayed stuck. Mirrors Steve Jobs ('I play the orchestra') and Microsoft/Amazon-level firms spending upwards of $12 billion/year on R&D because systems reliably produce winners. Applied to Facebook ads: clone a repeatable winning approach.",
+      "example": "",
+      "tags": ["systems", "strategy", "mindset"],
+      "difficulty": 1,
+      "chapter": "Ch. 4"
+    }
+  ]
+}

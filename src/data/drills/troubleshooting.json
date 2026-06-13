@@ -1,0 +1,98 @@
+{
+  "domain": "troubleshooting",
+  "module_title": "Troubleshooting",
+  "drills": [
+    {
+      "id": "troubleshooting-d1",
+      "kind": "order",
+      "scenario": "A local CrossFit gym launched a 7-day free trial conversion campaign 36 hours ago. The ad has 4,100 impressions, 90 link clicks, and exactly zero trial sign-ups recorded in Ads Manager. The owner is panicking and wants to kill the campaign.",
+      "question": "Work through the Zero Conversions Diagnostic Checklist in the correct order to find the leak.",
+      "options": [
+        "Verify the pixel is firing on EVERY page of the funnel using Facebook Pixel Helper",
+        "Verify it's the CORRECT pixel on every page (cross-reference the Pixel ID in Ads Manager against the one Pixel Helper shows)",
+        "Confirm you're optimizing for the right conversion event AND that your reporting columns are set to show it",
+        "Check that all funnel URLs are actually loading (test load speed at GTmetrix)",
+        "Check the landing pages by clicking every CTA button/link to confirm it goes where it should",
+        "Confirm the landing page actually HAS a CTA button or link at all"
+      ],
+      "answer": [],
+      "explanation": "Zero Conversions Diagnostic Checklist runs in this order: first confirm the pixel fires at all, then that it's the RIGHT pixel, then that you're optimizing for and reporting on the correct event (the event may be firing but not showing in the standard report), then that URLs actually load, then that CTAs go where they should, and finally the embarrassing-but-real check that a CTA exists at all. You verify measurement before you assume the campaign itself failed.",
+      "difficulty": 2
+    },
+    {
+      "id": "troubleshooting-d2",
+      "kind": "mcq",
+      "scenario": "A Shopify pet brand runs a cold-traffic ad for a $39 orthopedic dog bed. After 3 days: CTR is 3.8% (high), CPC is $0.21 (low), but there are no purchases and the CPA is effectively infinite. The product page loads fine and has a clear Add-to-Cart button.",
+      "question": "According to the 'High CTR / Low CPC but No Conversions' framework, which THREE culprits should you investigate?",
+      "options": [
+        "Landing page, ad scent, and targeting",
+        "Bid strategy, budget, and placements",
+        "Campaign objective, frequency, and dayparting",
+        "Pixel installation, attribution window, and lookalike size"
+      ],
+      "answer": 0,
+      "explanation": "High CTR / Low CPC but No Conversions narrows to three culprits: the landing page (people click but don't act), ad scent (no continuity between the ad and the page), and targeting (unqualified traffic clicking out of curiosity). Great click metrics with no conversions almost always trace back to one of these three, not to bid or budget settings.",
+      "difficulty": 1
+    },
+    {
+      "id": "troubleshooting-d3",
+      "kind": "mcq",
+      "scenario": "A business coach boosts a post promoting her free webinar. It racks up 600 likes, 140 comments, and 95 shares in a week — but only 4 webinar registrations. She's thrilled by the engagement and confused by the lack of sign-ups. She set the campaign up using the Page Post Engagement objective.",
+      "question": "Following the 'High Social Shares but Low Conversions' diagnostic order, what should she do FIRST?",
+      "options": [
+        "Rework the offer because the engagement proves the hook is fine",
+        "Re-evaluate the campaign objective — Engagement delivers engagement, not conversions; switch to a conversion objective",
+        "Add a stronger call to action and a URL in the ad copy",
+        "Re-examine the creative because it's engaging people for the wrong reasons"
+      ],
+      "answer": 1,
+      "explanation": "High Social Shares but Low Conversions: re-evaluate the campaign objective FIRST. A Traffic or Page Post Engagement objective tells the algorithm to optimize for engagement, not conversions, so Facebook delivers exactly what you asked for. Fixing copy, offer, and creative come later in the order — but none of them matter if the objective is pointed at the wrong outcome.",
+      "difficulty": 2
+    },
+    {
+      "id": "troubleshooting-d4",
+      "kind": "mcq",
+      "scenario": "An online bookstore targets the interest 'Oprah Winfrey' for a cold campaign selling a literary fiction subscription box. The ad gets strong clicks but very few subscriptions, and the buyers who do convert don't look like readers at all.",
+      "question": "What is the most likely diagnosis, per the module's targeting guidance?",
+      "options": [
+        "The offer price is too high for cold traffic",
+        "The interest doesn't actually correlate with the target market — liking Oprah doesn't mean someone reads books",
+        "The creative has weak ad scent with the landing page",
+        "The pixel is firing the wrong conversion event"
+      ],
+      "answer": 1,
+      "explanation": "Don't assume an interest correlates with your market. The Oprah caveat is the module's signature example: a broad celebrity/affinity interest pulls in people who like that person for many reasons unrelated to your product. Verify the interest actually maps to buyer intent (readers) before scaling spend behind it.",
+      "difficulty": 1
+    },
+    {
+      "id": "troubleshooting-d5",
+      "kind": "mcq",
+      "scenario": "A SaaS founder writes a hook for a coaching-adjacent lead magnet ad: 'How to make $30,000 in your first 30 days as a freelancer.' Facebook hasn't reviewed it yet, but a colleague flags the headline.",
+      "question": "What is the problem, and what should the founder expect?",
+      "options": [
+        "Nothing — specific numbers boost CTR and Facebook allows income claims with a timeframe",
+        "It's a subjective income-claim hook (specific income + timeframe) that is very likely to trigger a Facebook policy issue; rewrite it",
+        "It will only trigger the 'reach may be slightly lower' heads-up, so submit it as-is",
+        "It's fine for the hook but the timeframe should be removed from the landing page only"
+      ],
+      "answer": 1,
+      "explanation": "Don't make subjective income-claim hooks. Any hook promising a specific income — especially with a timeframe like 'make $30,000 in 30 days' — is very likely to run into Facebook policy trouble. Even softer versions like 'six-figure income as a coach' make a subjective income claim. This is a policy risk to rewrite, not a minor reach heads-up.",
+      "difficulty": 2
+    },
+    {
+      "id": "troubleshooting-d6",
+      "kind": "mcq",
+      "scenario": "A boutique skincare brand finishes building a conversion campaign. When they click 'Place order,' Facebook shows a yellow note: 'Your ad's reach may be slightly lower.' The copy is fairly long. The brand owner wants to scrap the whole ad and rewrite it before anything goes live.",
+      "question": "What is the correct response to this warning?",
+      "options": [
+        "Scrap and rewrite immediately — this is a disapproval that blocks delivery",
+        "It's only a heads-up (usually for long copy or a disliked image), not a disapproval; submit it, then double-check in Ads Manager that the campaign shows no errors",
+        "Shorten the copy until the warning disappears, since it guarantees reduced impressions",
+        "Switch to a different image and resubmit until Facebook approves with no note"
+      ],
+      "answer": 1,
+      "explanation": "Don't over-react to the 'reach may be slightly lower' warning. It is a heads-up, typically triggered by long copy or a disliked image, not a disapproval at this stage. Submit the ad — it often won't affect impressions at all — then after placing the order, confirm in Ads Manager that the campaign is listed with no errors.",
+      "difficulty": 1
+    }
+  ]
+}

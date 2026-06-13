@@ -1,0 +1,281 @@
+{
+  "domain": "video_ads",
+  "module_title": "Video Ads",
+  "cards": [
+    {
+      "id": "video-ads-three-step-formula",
+      "type": "framework",
+      "title": "The Three-Step Video Ad Formula",
+      "front": "What is the core formula behind 600M+ paid video views?",
+      "back": "Dominate Web Media's Three-Step Video Ad Formula for long-term, high-ROI Facebook video ads:\n- Step 1: Stop the Scroll — grab attention in the first 3-10 seconds\n- Step 2: Use the EDIE Formula — Educate, Demonstrate, Inform, or Entertain (include at least one)\n- Step 3: Call to Action — tell the viewer exactly what to do next, often multiple times\nIt is flexible: no fixed required length. Best performers have ranged from 20 seconds to 18 minutes.",
+      "example": "",
+      "tags": ["framework", "three-step-formula", "video-structure"],
+      "difficulty": 1,
+      "chapter": "Three-Step Video Ad Formula"
+    },
+    {
+      "id": "video-ads-edie-formula",
+      "type": "framework",
+      "title": "The EDIE Formula (Step 2)",
+      "front": "How do you make sure a video gets watched, remembered, AND shared?",
+      "back": "EDIE = Educate, Demonstrate, Inform, or Entertain — ensures at least one of Berger's virality principles is present. Include at least ONE (not all four):\n- Educate — teach/give tips (a Keynote/PowerPoint screen recording works); give value plus one 'Aha!' nugget, then point to the CTA for more\n- Demonstrate — show the product in action; great for tech brands ('we love to see gadgets work')\n- Inform — give info the viewer didn't know before; useful when the product needs little education\n- Entertain — hardest to do well",
+      "example": "Entertain: The Dollar Beard Club ran a parody of a Dollar Shave Club video.",
+      "tags": ["framework", "EDIE", "content-types"],
+      "difficulty": 1,
+      "chapter": "Three-Step Video Ad Formula"
+    },
+    {
+      "id": "video-ads-validate-message-first",
+      "type": "tactic",
+      "title": "Validate the Message Before You Film",
+      "front": "What should you prove BEFORE investing in a video?",
+      "back": "Validate the message first, then make the video. A winning long-copy ad de-risks video by validating the message in text form first. Video is introduced in Phase 3 (last) of the Facebook Flight Plan because it's resource-intensive (storyboard, script, film, edit) — in the first two phases you're still finding the hook/offer, far simpler to test by changing text and image than by remaking a whole video.",
+      "example": "",
+      "tags": ["tactic", "flight-plan", "validation"],
+      "difficulty": 1,
+      "chapter": "Ch. 3 / Ch. 15"
+    },
+    {
+      "id": "video-ads-cost-per-quality-view",
+      "type": "benchmark",
+      "title": "Cost Per Quality Video View",
+      "front": "How cheap is a quality video view vs. TV or billboards?",
+      "back": "Cost per quality video view is roughly $0.05-$0.10 per view — for 1,000 people watching at least 25% of your video. That's far cheaper than TV, billboards, radio, or direct mail.",
+      "example": "",
+      "tags": ["benchmark", "cost", "video-views"],
+      "difficulty": 1,
+      "chapter": "Ch. 12"
+    },
+    {
+      "id": "video-ads-audio-over-video",
+      "type": "concept",
+      "title": "Audio Beats Video",
+      "front": "Which matters more in a video ad: what they see or what they hear?",
+      "back": "Audio is more important than video. What enters through the ears stays in the mind ~5 seconds; what enters the eyes is gone in under a second. A picture is only 'worth a thousand words' if paired with a memorable sound (like a jingle). This matters even more since Facebook (Feb 2017) began autoplaying sound-on in the feed — sound fades in/out as users scroll, if phone sound is on.",
+      "example": "",
+      "tags": ["concept", "audio", "attention"],
+      "difficulty": 1,
+      "chapter": "Three-Step Video Ad Formula"
+    },
+    {
+      "id": "video-ads-add-motion",
+      "type": "tactic",
+      "title": "Add Motion to Catch the Eye",
+      "front": "Why do tiny GIFs and 9-second clips outperform static images?",
+      "back": "Add motion to catch the eye — small video ads or GIFs catch attention because they move while still conveying the message. Examples: a gauge that actually moves; a 9-second Messenger ad where a text bubble appears like a real-time conversation; a battery progressing from green to nearly dead over a campaign.",
+      "example": "",
+      "tags": ["tactic", "motion", "attention"],
+      "difficulty": 1,
+      "chapter": "Ch. 21"
+    },
+    {
+      "id": "video-ads-mine-existing-assets",
+      "type": "tactic",
+      "title": "Mine Existing Assets First",
+      "front": "What's the first thing the agency CEO does with a new client's video?",
+      "back": "Mine existing assets first. Some of the best-performing campaigns were video ads made from videos clients already had on YouTube. The first thing the agency CEO (Ralph Burns) does with a new client is watch every video on their YouTube channel. Leverage existing assets rather than always producing new.",
+      "example": "",
+      "tags": ["tactic", "production", "sourcing"],
+      "difficulty": 1,
+      "chapter": "Ch. 15"
+    },
+    {
+      "id": "video-ads-invest-in-idea-not-production",
+      "type": "concept",
+      "title": "Invest in the Idea, Not Production Value",
+      "front": "How did a ~$700 video generate millions in sales?",
+      "back": "Invest in the idea, not production value. The Dollar Beard Club put all initial energy and investment into creativity — a ~$700 video generated millions. Don't over-produce testimonials either: if a proof video is too perfect/polished, people trust it less than something that looks shot on an iPhone.",
+      "example": "An imperfect test video (ran ~2 min too long, bad lighting/silhouette) still produced customers at ~$5 each.",
+      "tags": ["concept", "production", "authenticity"],
+      "difficulty": 2,
+      "chapter": "Three-Step Video Ad Formula / Ch. 15"
+    },
+    {
+      "id": "video-ads-authentic-video-formula",
+      "type": "framework",
+      "title": "Authentic Video Formula",
+      "front": "What 4-step formula does the agency use for nearly all its videos?",
+      "back": "The Authentic Video Formula (avatar + pain point + personality) from The 13 Elements of Persuasive Ad Copy:\n- Call out your avatar directly\n- Call out a pain point in a Policy-compliant way\n- Express the customer's individuality / authentic voice in the ad copy\n- Reinforce all of it with the video itself — ideally the customer appears IN the video as the voice of the business\nThe copy doesn't have to pose a question; it can simply get the prospect thinking about a shared problem, then instruct them what to do next.",
+      "example": "Opener: get the prospect thinking about a shared problem, then say 'Watch the video, then click the link for more tips.'",
+      "tags": ["framework", "13-elements", "authenticity"],
+      "difficulty": 2,
+      "chapter": "The 13 Elements of Persuasive Ad Copy"
+    },
+    {
+      "id": "video-ads-educate-before-sell",
+      "type": "tactic",
+      "title": "Educate Before You Sell (Cold Traffic)",
+      "front": "How do you sell to people who've never heard of you?",
+      "back": "When running to cold traffic, build authority, credibility, and rapport by educating first, deliver upfront value, then pivot at the end to the next step. A long, highly actionable UNGATED video (no opt-in) can lead directly to a purchase CTA instead of a gated lead magnet — it proves it can help the prospect by actually helping them, then leads them to buy more of what they were just shown.",
+      "example": "",
+      "tags": ["tactic", "cold-traffic", "educate"],
+      "difficulty": 2,
+      "chapter": "Ch. 16 / Ch. 17"
+    },
+    {
+      "id": "video-ads-cta-timing",
+      "type": "benchmark",
+      "title": "CTA Placement & Timing",
+      "front": "Where and how often should CTAs appear in a long video?",
+      "back": "Don't bury the CTA at the very end — only a portion watch a long video to the end:\n- On videos ~3 min+, place a soft CTA within the first 60-90 seconds\n- In a 9-minute video, the first CTA goes ~90 seconds in, with ~4 CTAs total\n- It's a marathon, not a late-night 'buy now while stocks last' infomercial\nKeep CTAs authentic to the brand, 'seeding the next thing.'",
+      "example": "A student's smart CTA in a Facebook video ad drove a 2,882% ROI.",
+      "tags": ["benchmark", "CTA", "timing"],
+      "difficulty": 2,
+      "chapter": "Ch. 18 / Three-Step chapter"
+    },
+    {
+      "id": "video-ads-transformation-hook",
+      "type": "tactic",
+      "title": "Transformation as a Hook",
+      "front": "How do you turn a real before/after into a paid offer?",
+      "back": "Show a real before/after process on video; give practical info, build credibility/rapport, and pre-frame the prospect so the paid offer (the 'missing ingredient') becomes the logical next step. Work backward from the offer to the hook.",
+      "example": "Flip a $40k house sold for $90k on video; the missing ingredient (the money to fund the flip) becomes the paid offer.",
+      "tags": ["tactic", "hook", "pre-framing"],
+      "difficulty": 2,
+      "chapter": "Ch. 16"
+    },
+    {
+      "id": "video-ads-video-before-lead-magnet",
+      "type": "tactic",
+      "title": "Video Before a Lead Magnet to Pre-Frame the Sale",
+      "front": "Why add a video in front of a low-commitment lead magnet?",
+      "back": "Normally you don't need a video for a low-commitment lead magnet, but a video at first contact builds rapport/credibility and subconsciously pre-commits prospects to the product sold on the thank-you page — 'where the magic happens.'",
+      "example": "Organifi's 'Alpha Reset' video ad (~4 min, ~20M views) drove a free ebook download and pre-framed the green-juice sale on the thank-you page.",
+      "tags": ["tactic", "pre-framing", "lead-magnet"],
+      "difficulty": 2,
+      "chapter": "Ch. 17"
+    },
+    {
+      "id": "video-ads-nielsen-lift",
+      "type": "benchmark",
+      "title": "Ad Recall & Purchase-Intent Lift",
+      "front": "How quickly does a video lift ad recall and purchase intent?",
+      "back": "Per a Nielsen study (Fig. 22.1):\n- Ad recall lift: +74% after 15 seconds\n- Purchase-intent lift: +72% after 10 seconds\nThis is why the first seconds — and the stop-the-scroll window of 3-10 seconds — matter so much.",
+      "example": "",
+      "tags": ["benchmark", "nielsen", "recall"],
+      "difficulty": 2,
+      "chapter": "Three-Step Video Ad Formula"
+    },
+    {
+      "id": "video-ads-edie-case-lengths",
+      "type": "benchmark",
+      "title": "EDIE Case Study Lengths",
+      "front": "What lengths did the four EDIE case-study videos actually run?",
+      "back": "Real EDIE case videos (no fixed length rule):\n- Educate (book offer): 9+ min — cold traffic to free-book + S&H, customers at ~$5/book (Fig. 22.5)\n- Educate (webinar): 6 min — automated webinar selling at ~$1,200 average price (Fig. 22.6)\n- Demonstrate (tech demo): 30 sec — software turning a blog post into a PDF ebook (Fig. 22.7)\n- Inform (superfood): 18 months runtime — repurposed YouTube video, scaled due to strong returns (Fig. 22.8)\n- Entertain (Dollar Beard Club): ~$700 production turned into millions in sales",
+      "example": "",
+      "tags": ["benchmark", "EDIE", "case-studies"],
+      "difficulty": 2,
+      "chapter": "Three-Step Video Ad Formula"
+    },
+    {
+      "id": "video-ads-organifi-superfoods",
+      "type": "benchmark",
+      "title": "Organifi '11 Superfoods' Cold-Traffic Numbers",
+      "front": "What split of cold vs. warm did Organifi run a 6-12 min video to?",
+      "back": "Organifi's '11 Superfoods' video runs in several versions at 6-12 minutes, mostly to COLD traffic and works well. The split was ~90% cold / ~10% retargeting, with a ~$100 average order. A free+shipping book campaign video ran ~10 min.",
+      "example": "",
+      "tags": ["benchmark", "organifi", "cold-traffic"],
+      "difficulty": 2,
+      "chapter": "Ch. 17"
+    },
+    {
+      "id": "video-ads-upsyd-single-ad",
+      "type": "framework",
+      "title": "UPSYD — Selling Cold to the Top with One Ad",
+      "front": "Can a single ad move a cold audience up the whole UPSYD staircase?",
+      "back": "Yes. You can move broad cold audiences from the bottom to the top of the UPSYD staircase and sell a physical product with a single ad by combining the Three-Step Video Ad Formula with the UPSYD framework, plus retargeting to maximize ROI:\n- Take the same hook and copy from your winning long-copy ad and turn it into a video\n- Video is a great medium to build trust, make connections, offer value, and build brand — so it's much easier to ascend all five UPSYD steps in a very small amount of time",
+      "example": "",
+      "tags": ["framework", "UPSYD", "cold-to-sale"],
+      "difficulty": 3,
+      "chapter": "Ch. 13"
+    },
+    {
+      "id": "video-ads-portals",
+      "type": "framework",
+      "title": "Portals — Reset Attention to Prime a Decision (7 Power Questions, Q7)",
+      "front": "What device makes a prospect open to changing their mind mid-video?",
+      "back": "A 'portal' moves the prospect (visually, mentally, or via audio) from one place/state to another, resetting attention so they're more open to a decision. Without a portal, the audience is less likely to make a change. Types:\n- Visual — the classic product-launch shot of the marketer talking while driving in his car (you 'ride along')\n- Walk-through — a local plumber starts outside: 'Hi, I'm Fred... come inside,' camera follows him through the door\n- Auditory — change/start background music as the transition occurs\nCan be subtle (a background color change) or obvious. Iconic: Dorothy's doorway shifting black-and-white to color in Wizard of Oz; the wedding aisle.",
+      "example": "Plumber portal: 'Hi, I'm Fred... come inside, I want you to meet some people.' (camera follows him through the door)",
+      "tags": ["framework", "7-power-questions", "portals"],
+      "difficulty": 3,
+      "chapter": "Ch. 20"
+    },
+    {
+      "id": "video-ads-video-views-objective",
+      "type": "tactic",
+      "title": "Video Views Objective Builds Retargetable Audiences",
+      "front": "How do you turn cheap views into a retargeting machine?",
+      "back": "Use the Video Views objective to build retargetable engaged audiences. It gets your video in front of people most likely to actually watch, and lets you build audiences of viewers to retarget along the customer journey (unaware to customer). A 5-min video to a most-likely-to-watch audience can earn a few thousand views in days; if half watch half, that's ~1,000 people who spent 2.5 minutes focused on your brand. Powerful for launching to a COLD audience.",
+      "example": "Early 2016: 100M+ hours of video watched on Facebook per day (growing with Facebook Live); video watchers buy more.",
+      "tags": ["tactic", "video-views", "retargeting"],
+      "difficulty": 3,
+      "chapter": "Ch. 26"
+    },
+    {
+      "id": "video-ads-work-backward-from-offer",
+      "type": "checklist",
+      "title": "Working Backward From the Offer (Hook Design)",
+      "front": "How do you design a hook so the offer is the logical next step?",
+      "back": "Work backward from the offer to the hook:\n- Define the end business goal (e.g., get prospects on a call / to purchase)\n- Identify the offer's 'missing ingredient' the video pre-frames\n- Derive the hook from the offer\nExample: hook 'buy a house with no money' leads to checklist offer '15 things to flip your first house,' one of which is that you need funding.",
+      "example": "",
+      "tags": ["checklist", "hook-design", "offer"],
+      "difficulty": 3,
+      "chapter": "Ch. 16"
+    },
+    {
+      "id": "video-ads-before-you-publish-checklist",
+      "type": "checklist",
+      "title": "Before You Publish a Video Ad",
+      "front": "What's the pre-flight checklist before a video ad goes live?",
+      "back": "Before you publish:\n- First 3-10 seconds stop the scroll\n- At least one EDIE element present (Educate, Demonstrate, Inform, or Entertain)\n- Audio is strong/memorable (assume sound-on autoplay)\n- Avatar called out directly; pain point called out Policy-compliantly\n- Customer's authentic voice comes through (ideally customer on camera)\n- Educates and delivers upfront value BEFORE pivoting to sell (cold traffic)\n- A portal (visual/auditory) resets attention\n- At least one clear CTA — multiple across a long video; on ~3 min+ videos a soft CTA within the first 60-90 sec\n- CTAs are authentic, 'seeding the next thing'\n- Video length matches the brand/product (no arbitrary rule)\n- Checked the client's existing YouTube channel for reusable footage",
+      "example": "",
+      "tags": ["checklist", "pre-publish", "quality-control"],
+      "difficulty": 3,
+      "chapter": "Checklists"
+    },
+    {
+      "id": "video-ads-no-straight-buy-now-cold",
+      "type": "pitfall",
+      "title": "Pitfall: Straight 'Buy Now' to Cold Traffic",
+      "front": "Why does a video that's just a 'buy now' CTA fail on cold traffic?",
+      "back": "Don't run a video that's just a straight 'buy now' CTA to cold traffic. 'If you're thinking about just putting up a video with a straight call to action to buy your product, don't do it because it won't work. There has to be a whole lot more to it than just a CTA.' Educate and give value first, then pivot to sell.",
+      "example": "",
+      "tags": ["pitfall", "cold-traffic", "CTA"],
+      "difficulty": 2,
+      "chapter": "Ch. 17"
+    },
+    {
+      "id": "video-ads-dont-forget-or-bury-cta",
+      "type": "pitfall",
+      "title": "Pitfall: Forgetting or Burying the CTA",
+      "front": "What mistake do clients make thinking social is 'all about branding'?",
+      "back": "Don't forget the CTA — and don't bury it only at the end. Many clients skip the CTA thinking social is 'all about branding and engagement.' Branding matters, but you must tell viewers what to do, multiple times, since only a portion watch a long video to the end.",
+      "example": "",
+      "tags": ["pitfall", "CTA", "branding"],
+      "difficulty": 2,
+      "chapter": "Three-Step chapter"
+    },
+    {
+      "id": "video-ads-no-arbitrary-length-rules",
+      "type": "pitfall",
+      "title": "Pitfall: Obeying Arbitrary Length Rules",
+      "front": "Should you trust an expert who says a video 'must be' 30 sec or 5 min?",
+      "back": "Don't obey arbitrary video-length rules. Beware experts who insist a video 'must be' 30 sec or 5 min — they can rationalize either way. A proven formula with a great track record is not always YOUR formula. Match content to your brand and product; everything else is fluid. Best performers have ranged from 20 seconds to 18 minutes.",
+      "example": "A one-day video campaign spent $1,600 to produce $6,000 in sales (extreme but not unusual).",
+      "tags": ["pitfall", "length", "flexibility"],
+      "difficulty": 2,
+      "chapter": "Three-Step chapter"
+    },
+    {
+      "id": "video-ads-dont-skip-portal",
+      "type": "pitfall",
+      "title": "Pitfall: Skipping the Portal",
+      "front": "What happens to your audience if you never reset their attention?",
+      "back": "Don't skip the portal. Without a visual/auditory portal to reset attention, the audience is less likely to make a change. The portal cue signals 'what was before is not the same anymore; it's okay to act on a new path.'",
+      "example": "",
+      "tags": ["pitfall", "portals", "attention"],
+      "difficulty": 3,
+      "chapter": "Ch. 20"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "domain": "troubleshooting",
+  "module_title": "Troubleshooting",
+  "cards": [
+    {
+      "id": "troubleshooting-five-common-scenarios",
+      "type": "framework",
+      "title": "The Five Most Common Troubleshooting Scenarios",
+      "front": "When a Facebook campaign underperforms, which 5 failure patterns should you diagnose against first?",
+      "back": "Diagnose against these five recurring failure patterns, each with its own fix path:\n- Zero conversions (work the Zero Conversions Diagnostic Checklist)\n- CPAs are too high\n- CTR is high but CPC is low, yet conversions don't follow\n- Social shares are high but conversions are low\n- Relevance score drops or is low",
+      "example": "",
+      "tags": ["diagnosis", "frameworks", "fundamentals"],
+      "difficulty": 1,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-other-known-scenarios",
+      "type": "concept",
+      "title": "Other Scenarios Worth Knowing",
+      "front": "Beyond the big five, what other troubleshooting scenarios should you be aware of?",
+      "back": "Not covered in depth but worth knowing:\n- Low click-through rate (CTR)\n- High cost per click (CPC)\n- High CPA with large target audiences\n- Ads not getting impressions from Facebook\n- CPA rising as you scale campaigns",
+      "example": "",
+      "tags": ["diagnosis", "concepts"],
+      "difficulty": 1,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-reach-warning-heads-up",
+      "type": "pitfall",
+      "title": "The 'Reach May Be Slightly Lower' Warning",
+      "front": "Facebook warns 'Your ad's reach may be slightly lower' — should you panic and rebuild the ad?",
+      "back": "No. It's just a heads-up (typically triggered by long copy or a disliked image), NOT a disapproval. Facebook won't disapprove the ad at this stage. Just submit it and see what happens — often it won't affect your impressions at all. After hitting 'Place order,' double-check in Ads Manager that the campaign is listed with no errors.",
+      "example": "",
+      "tags": ["policy", "reach", "pitfalls"],
+      "difficulty": 1,
+      "chapter": "Ch. 11"
+    },
+    {
+      "id": "troubleshooting-pixel-helper-tool",
+      "type": "tactic",
+      "title": "Facebook Pixel Helper",
+      "front": "What free Chrome tool confirms your pixel is firing correctly across the funnel?",
+      "back": "Facebook Pixel Helper (Chrome extension) — verify the pixel fires, and that it's the CORRECT pixel, on every page of the funnel.",
+      "example": "Click the URL in every ad with zero conversions and confirm the pixel fires on each page.",
+      "tags": ["tools", "pixel", "tracking"],
+      "difficulty": 1,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-gtmetrix-tool",
+      "type": "tactic",
+      "title": "GTmetrix for Page-Load Issues",
+      "front": "Conversions are zero and you suspect the page itself — what tool tests for it?",
+      "back": "GTmetrix (https://gtmetrix.com) — test funnel URL load speed when conversions are zero and you suspect a page-load, caching, or other interference issue. If load speed is the problem, bring in a technical person to resolve the issues making URLs load slowly.",
+      "example": "",
+      "tags": ["tools", "page-speed", "diagnosis"],
+      "difficulty": 1,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-income-claim-hooks-pitfall",
+      "type": "pitfall",
+      "title": "Don't Make Income-Claim Hooks",
+      "front": "Why can a hook like 'make $30,000 in 30 days' get your ad in trouble?",
+      "back": "Don't make subjective income-claim hooks. Any hook promising a specific income — especially with a timeframe (e.g., 'make $30,000 in 30 days') — is very likely to cause trouble with Facebook policy. Even hooks like 'how to create a six-figure income as a coach' make a subjective income claim and may run into policy issues.",
+      "example": "Avoid: 'make $30,000 in 30 days' / 'how to create a six-figure income as a coach'",
+      "tags": ["policy", "hooks", "pitfalls"],
+      "difficulty": 1,
+      "chapter": "Ch. 16: Hacking the Hook"
+    },
+    {
+      "id": "troubleshooting-zero-conversions-checklist",
+      "type": "checklist",
+      "title": "Zero Conversions Diagnostic Checklist",
+      "front": "Campaign produced NOTHING after 24-48 hours — what's the in-order checklist to find the break?",
+      "back": "Work through this in order:\n- Verify the pixel is on EVERY page of the funnel (Facebook Pixel Helper)\n- Verify it's the CORRECT pixel on every page\n- Confirm you're optimizing for the right conversion event AND that reporting columns match\n- Check that all funnel URLs are actually loading (GTmetrix)\n- Check the landing pages — click every CTA button/link\n- Confirm the landing page actually HAS a CTA button or link at all",
+      "example": "",
+      "tags": ["checklist", "zero-conversions", "diagnosis"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-verify-correct-pixel",
+      "type": "tactic",
+      "title": "Verifying It's the CORRECT Pixel",
+      "front": "Pixel fires on every page — but how do you know it's even the RIGHT pixel?",
+      "back": "Clients can have multiple ad accounts/companies and multiple pixels on one site. Cross-reference: Ads Manager > All Tools dropdown > Pixels, find your Ad Account Pixel ID on the right side, and confirm it matches the Pixel ID shown by the Facebook Pixel Helper on every page.",
+      "example": "",
+      "tags": ["pixel", "tracking", "diagnosis"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-conversion-event-reporting-match",
+      "type": "tactic",
+      "title": "Optimization Event vs. Reporting Columns",
+      "front": "You ARE getting conversions but the report shows zero — what mismatch causes this?",
+      "back": "The event you optimize for may not appear in the standard Ads Manager report. Confirm you're optimizing for the right conversion event AND that your reporting columns match:\n- Verify the optimized event at the ad set level\n- Customize report columns to show that conversion event\n- Save the view as a named preset\n- Set it as the default view",
+      "example": "",
+      "tags": ["reporting", "conversion-event", "diagnosis"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-landing-page-cta-check",
+      "type": "checklist",
+      "title": "Checking Landing Pages for Zero Conversions",
+      "front": "Pixel and event are fine but still zero conversions — what physical page checks remain?",
+      "back": "Check the landing pages directly:\n- Click every single CTA button/link and confirm it goes where it should\n- Confirm the landing page actually HAS a CTA button or link at all (it has happened that a client wanted conversion traffic to a page with no button or link anywhere)",
+      "example": "",
+      "tags": ["landing-page", "cta", "diagnosis"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-high-ctr-low-cpc-three-culprits",
+      "type": "framework",
+      "title": "High CTR / Low CPC but No Conversions: Three Culprits",
+      "front": "Your CTR is high and CPC is low — but no conversions. Which 3 things are to blame?",
+      "back": "The problem is one of three things:\n- Landing page — people click but don't convert; fix by split testing and reworking the landing/registration/sales page\n- Ad scent — no continuity between the ad and the landing page; look at both side by side, find familiar components, and make them match\n- Targeting — you've been sending unqualified traffic; re-examine targeting",
+      "example": "",
+      "tags": ["ctr", "cpc", "frameworks"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-ad-scent",
+      "type": "concept",
+      "title": "Ad Scent (Ad-to-Page Continuity)",
+      "front": "What is 'ad scent' and how do you fix it when clicks don't convert?",
+      "back": "Ad scent is the 'smell' or continuity between the ad and the landing page. When it's missing, people click but bounce. Fix it: look at the ad and the landing page side by side, check for similarities or familiar components, then make them match.",
+      "example": "",
+      "tags": ["ad-scent", "landing-page", "concepts"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-interest-correlation-pitfall",
+      "type": "pitfall",
+      "title": "Don't Assume an Interest Maps to Your Market",
+      "front": "Why might targeting people who 'like Oprah' still send you unqualified traffic?",
+      "back": "Don't assume an interest correlates with your market. Just because someone likes Oprah doesn't mean they read books. Make sure the interest actually correlates with — and maps to — your target market before targeting it.",
+      "example": "Liking Oprah does not mean someone reads books.",
+      "tags": ["targeting", "interests", "pitfalls"],
+      "difficulty": 2,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-high-shares-low-conversions-order",
+      "type": "framework",
+      "title": "High Social Shares but Low Conversions: Diagnostic Order",
+      "front": "Lots of likes, comments, and shares — but few conversions. What's the fix order?",
+      "back": "High engagement doesn't guarantee conversions. Work through in order:\n- Re-evaluate your campaign objective FIRST — Traffic or Page Post Engagement objectives deliver traffic/engagement, NOT conversions; switch to a conversion objective\n- Look at your ad copy — is the hook strong, and does the copy lead to the next step? Make it crystal clear\n- Rework your offer — high shares mean the hook resonates, so the offer is most likely missing the mark\n- Re-examine ad copy and creative — the ad may be engaging people for the wrong reasons",
+      "example": "An ad with very high social shares wasn't converting; they revamped the copy, created a strong offer and call to action, and ADDED A URL in the copy — then it 'started converting like crazy.'",
+      "tags": ["engagement", "objective", "frameworks"],
+      "difficulty": 3,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-objective-drives-delivery",
+      "type": "concept",
+      "title": "Objective Drives What the Algorithm Delivers",
+      "front": "Why is the wrong objective the FIRST thing to check when shares are high but conversions are low?",
+      "back": "The algorithm delivers exactly what your objective asks for. If you're running a Traffic or Page Post Engagement objective, Facebook delivers traffic or engagement, NOT conversions. Re-evaluate your campaign objective first and switch to a conversion objective.",
+      "example": "",
+      "tags": ["objective", "algorithm", "concepts"],
+      "difficulty": 3,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    },
+    {
+      "id": "troubleshooting-engagement-not-conversions-pitfall",
+      "type": "pitfall",
+      "title": "Don't Assume High Engagement = Conversions",
+      "front": "What false assumption makes marketers celebrate shares while sales stay flat?",
+      "back": "Don't assume high engagement = conversions. High social shares, likes, and comments do not guarantee conversions. Often the objective is wrong (Traffic/Engagement instead of Conversions) or the offer is missing the mark.",
+      "example": "",
+      "tags": ["engagement", "conversions", "pitfalls"],
+      "difficulty": 3,
+      "chapter": "Troubleshooting: 5 common scenarios"
+    }
+  ]
+}

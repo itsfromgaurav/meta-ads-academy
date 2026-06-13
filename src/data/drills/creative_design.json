@@ -1,0 +1,113 @@
+{
+  "domain": "creative_design",
+  "module_title": "Creative & Design",
+  "drills": [
+    {
+      "id": "creative_design-d1",
+      "kind": "mcq",
+      "scenario": "FitForge, a local gym, is launching ads with the hook \"Don't bottle up your stress — sweat it out.\" The marketer hands the designer a brief that only says \"make it look premium with our brand colors.\" The designer returns a slick photo of a dumbbell on a marble floor. CTR is dismal.",
+      "question": "Per the module, what is the single most important fix to this creative?",
+      "options": [
+        "Switch to a brighter background color so it pops in the newsfeed",
+        "Make the image reflect the hook (e.g. sad bottles), because reflecting the hook is the one mandatory creative element",
+        "Add three more brand colors to make it feel premium",
+        "Replace it with a high-quality stock photo of a person mid-workout"
+      ],
+      "answer": 1,
+      "explanation": "Of the Six Important Aspects Your Creative Should Have, #1 'Reflect your hook' is the only MANDATORY one. A dumbbell on marble doesn't translate the 'don't bottle up' hook. The keyword-to-image process would pull 'bottle' and use literal imagery (sad bottles), exactly the example the module gives.",
+      "difficulty": 1
+    },
+    {
+      "id": "creative_design-d2",
+      "kind": "order",
+      "scenario": "PawPantry, a Shopify pet brand, has a new hook: \"Guess where your dog's allergies are really hiding.\" The marketer wants to turn that hook into an image concept the right way, using the module's keyword-to-image extraction process before briefing a designer.",
+      "question": "Put the keyword-to-image extraction steps in the correct order.",
+      "options": [
+        "Write the hook",
+        "Pull the biggest keyword(s) out of the hook (e.g. 'guess', 'hiding')",
+        "Think about what people associate with that keyword",
+        "Type the keyword into Google (preferred) or Dreamstime to see the top associated images",
+        "Use the surfaced association as the literal image concept (e.g. a 'Guess Who' mockup)"
+      ],
+      "answer": [],
+      "explanation": "The Ch. 21 keyword-to-image extraction process is: (1) write the hook, (2) pull the biggest keyword, (3) think about its associations, (4) Google it — top images are the ones most clicked for that keyword, so let Google's dataset tell you the associated image rather than guessing, (5) use that literal image. The 'guess' keyword maps to the Guess Who mockup the module cites.",
+      "difficulty": 2
+    },
+    {
+      "id": "creative_design-d3",
+      "kind": "mcq",
+      "scenario": "A coach selling a $997 webinar funnel is retargeting site visitors who didn't buy, with an early-bird discount that expires in 48 hours. He wants the image to create urgency. He's debating four image directions.",
+      "question": "Which image best applies 7 Power Questions Q4 (pre-expose the audience to an emotional stimulus)?",
+      "options": [
+        "A smiling stock photo of the coach waving at the camera",
+        "A clean screenshot of the webinar registration page",
+        "An iPhone low-battery warning at ~10% red, to prime nervous urgency that transfers to the expiring deal",
+        "A bar chart showing how much money past students earned"
+      ],
+      "answer": 2,
+      "explanation": "Q4 says: pre-expose the audience to a concept that evokes the required emotion before the ask — even if logically unrelated. The DigitalMarketer low-battery ad (Fig. 20.1) primes 'OMG I've got to plug it in' urgency that transfers to a sale about to end. The chart and headshot don't prime an emotional state; the registration screenshot is congruence, not pre-suasion.",
+      "difficulty": 2
+    },
+    {
+      "id": "creative_design-d4",
+      "kind": "multi",
+      "scenario": "A meal-prep startup wants its launch video ad to be highly shareable. The team is brainstorming which elements to bake in, and references the STEPPS framework (Contagious) covered in the module.",
+      "question": "Which of these choices are STEPPS principles that genuinely raise share probability? (Select all that apply.)",
+      "options": [
+        "Make viewers feel like insiders who know about a 'secret' meal hack (Social Currency)",
+        "Tie the ad to a recurring daily moment like the 5pm 'what's for dinner?' panic (Triggers)",
+        "Provoke a high-arousal emotion such as awe or anxiety, not a low-arousal one (Emotion)",
+        "Pay for more impressions so the algorithm forces shares",
+        "Give genuinely useful, life-improving info viewers want to pass on (Practical Value)"
+      ],
+      "answer": [0, 1, 2, 4],
+      "explanation": "STEPPS = Social Currency, Triggers, Emotion (high-arousal awe/anger/anxiety, not low-arousal), Public, Practical Value, Stories. Each correct option maps to one of these. Paying for impressions is not a STEPPS principle — the framework engineers organic shareability; virality is raised by content design, not ad spend.",
+      "difficulty": 2
+    },
+    {
+      "id": "creative_design-d5",
+      "kind": "mcq",
+      "scenario": "A skincare DTC brand finds a winning ad set. To scale, the media buyer duplicates the winning ad set 9 times (10 total). A week later she notices the original ad had 400 comments full of glowing reviews, but each of the new duplicates shows only a handful of likes and almost no social proof.",
+      "question": "Diagnose the problem and the correct fix.",
+      "options": [
+        "Facebook reset the social proof; nothing can be done but wait for it to rebuild on each ad",
+        "Each duplicate got a new Post ID, splitting social proof across 10 posts — reuse the original Post ID in all duplicates so comments/likes consolidate",
+        "She should have duplicated the ad, not the ad set, which keeps the Ad ID identical",
+        "She must lower the budget on each duplicate so the algorithm shares social proof between them"
+      ],
+      "answer": 1,
+      "explanation": "Five-Tier Scaling System: every ad has both an Ad ID and a Post ID. Duplicating creates new Post IDs, so identical creative is treated as separate posts and social proof thins across all of them. The fix is to use the same (original) Post ID in every duplicate; the Ad ID differs per ad but the shared Post ID collects all reactions in one place, and Facebook rewards that with cheaper impressions.",
+      "difficulty": 3
+    },
+    {
+      "id": "creative_design-d6",
+      "kind": "mcq",
+      "scenario": "An MLM network-marketing recruiter is in a hurry and grabs a stock photo of a cat sitting at a keyboard for an ad about building a downline. Clicks come in cheap at first, but cost-per-lead is terrible and the leads are junk. He insists the image 'got tons of attention.'",
+      "question": "What does the module say is wrong with this approach?",
+      "options": [
+        "The cat photo is fine; the real issue is he didn't add Instagram placement",
+        "Eyeball-bait imagery unrelated to the hook only catches attention and generates unqualified clicks; ad scent breaks on landing — the creative must convey the hook",
+        "Cats convert poorly but a puppy or pretty woman would have fixed the targeting",
+        "The image needed more fonts and colors to compete in the newsfeed"
+      ],
+      "answer": 1,
+      "explanation": "The module's pitfalls call this out directly: the stock cat-at-keyboard MLM ad had no relation to network marketing — a magnet for unqualified clicks and bad for the brand. Eyeball-bait (cat/puppy/pretty woman) only grabs attention; ad scent breaks once they land. If the image isn't conveying the hook, you're just catching eyeballs.",
+      "difficulty": 1
+    },
+    {
+      "id": "creative_design-d7",
+      "kind": "mcq",
+      "scenario": "A SaaS founder builds an ad image himself. He uses five different font families, ten bright colors, and a photographic stock image of a generic office. He places a person in the photo who is looking off to the left, away from the CTA button on the right.",
+      "question": "Which combination of fixes is most aligned with the module's image-execution best practices?",
+      "options": [
+        "Keep all ten colors but reduce to two fonts, and keep the photographic stock image",
+        "Cut to one or two fonts and a few complementary/contrasting colors, swap to a designed/branded image, and direct the person's gaze toward the CTA",
+        "Add even more contrasting colors so it pops, and let the person keep looking left for visual interest",
+        "Switch to auto-generated video captions and add three more fonts for emphasis"
+      ],
+      "answer": 1,
+      "explanation": "Module execution rules: use only one or two font families (too many kills readability), use only a few complementary/contrasting colors (ten gets busy), prefer designed/branded images over photographic stock (which gets buried among friends' photos), and direct the subject's gaze at the viewer or the CTA because viewers follow the gaze.",
+      "difficulty": 2
+    }
+  ]
+}

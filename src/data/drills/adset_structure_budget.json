@@ -1,0 +1,97 @@
+{
+  "domain": "adset_structure_budget",
+  "module_title": "Ad Sets & Budget",
+  "drills": [
+    {
+      "id": "adset_structure_budget-d1",
+      "kind": "mcq",
+      "scenario": "Priya runs a Shopify pet-supplies brand. She wants to test which interests actually drive sales, so she builds one ad set targeting 'Dog owners', 'Cat lovers', 'Pet grooming', and 'PetSmart' all stacked together with a single $40/day budget.",
+      "question": "What is the core problem with how Priya structured this ad set?",
+      "options": [
+        "She combined multiple interests into one ad set, so she can't see which interest is actually performing — she should split each interest into its own ad set.",
+        "She used too small a budget; interest testing requires at least $100/day per ad set.",
+        "She should have used Lifetime budget instead of Daily for interest testing.",
+        "Four interests is too few — Facebook requires a minimum of 20 interests per ad set."
+      ],
+      "answer": 0,
+      "explanation": "Audience & interest structure: keep one (or two related) interests per ad set so you can measure how each interest performs. Combining many interests in one ad set destroys per-interest visibility — you can't tell which audience drove results. Split them into separate ad sets (targeting ~1.5M reach each) for clean, comparable data.",
+      "difficulty": 1
+    },
+    {
+      "id": "adset_structure_budget-d2",
+      "kind": "mcq",
+      "scenario": "Marcus, a fitness coach selling a webinar, has $50/day to spend on cold interest-targeting ad sets. He's not sure how many interests to start with.",
+      "question": "Roughly how many interest-targeted ad sets should Marcus start with for his $50/day budget?",
+      "options": [
+        "About 1 ad set with all interests combined",
+        "About 5 ad sets (one interest each)",
+        "About 20 ad sets",
+        "About 50 ad sets"
+      ],
+      "answer": 1,
+      "explanation": "Interest count by budget rule of thumb: daily ad spend ÷ 10 ≈ number of ad sets/interests. $50/day ÷ 10 ≈ 5 ad sets, each with a single interest. (Large budgets lean toward ~20 interests; small budgets toward ~5.)",
+      "difficulty": 2
+    },
+    {
+      "id": "adset_structure_budget-d3",
+      "kind": "order",
+      "scenario": "A local gym is launching its first Meta campaign and has no fans, no custom audiences, and no website traffic data yet. Over the coming months it will build those assets. The owner wants to follow the Four Ad Set Groups sequenced rollout from the Targeting Game Plan.",
+      "question": "Put the ad set groups in the order the module says to roll them out as the gym builds its audiences.",
+      "options": [
+        "Interests & Behaviors (cold) — the starting point",
+        "Your Fans (warm) — once you've built a fan base",
+        "Your Custom Audiences (warm) — once you have traffic/customer data",
+        "1% Lookalike Audiences (cold) — once you see conversions from fans and custom audiences"
+      ],
+      "answer": [],
+      "explanation": "Sequenced rollout (Ch. 24): start with Ad Set #4 Interest Targeting (where most campaigns begin and the only group available when starting from scratch), then add Fans (#1) and Custom Audiences (#2) as you build those assets, then add 1% Lookalikes (#3) once you see conversions from the warm audiences to seed them.",
+      "difficulty": 2
+    },
+    {
+      "id": "adset_structure_budget-d4",
+      "kind": "mcq",
+      "scenario": "An e-commerce advertiser found a winning interest ad set. She had raised its budget from the original $10/day up to $20/day as it performed. Now she wants to duplicate this winning ad set to test the same creative against new interests.",
+      "question": "What budget should she set on the duplicated ad sets?",
+      "options": [
+        "$20/day — match the winner's current budget so the duplicates perform identically",
+        "$40/day — double down on a proven winner to scale faster",
+        "$10/day — the original starting budget, not the later-raised amount",
+        "$5/day — always halve the budget when duplicating to reduce risk"
+      ],
+      "answer": 2,
+      "explanation": "Five-Tier Scaling pitfall: don't duplicate at the increased budget. When duplicating a winning ad set, start the copy at the ORIGINAL starting budget ($10/day), not the later-raised one ($20/day). Duplicating at the increased budget produces worse results.",
+      "difficulty": 3
+    },
+    {
+      "id": "adset_structure_budget-d5",
+      "kind": "mcq",
+      "scenario": "A Shopify candle brand is running the Michigan Method: many small-budget ad sets to find winning interests fast. The media buyer sets up 120 ad sets, each targeting a tightly-defined audience of about 80,000 people, with one ad per ad set.",
+      "question": "What's wrong with this Michigan Method setup, and what should change?",
+      "options": [
+        "The audiences are too small (80K) — Michigan Method targets larger audiences of 400,000–2 million to prevent cannibalization and saturation.",
+        "120 ad sets is far too many — the method caps at about 20 ad sets.",
+        "One ad per ad set is the mistake — each Michigan Method ad set should hold multiple ads for a good data spread.",
+        "Nothing is wrong; small 80K audiences are ideal for the Michigan Method.",
+        "She should be using Lifetime budgets, since the Michigan Method requires dayparting."
+      ],
+      "answer": 0,
+      "explanation": "Michigan Method: for optimal performance, target larger audiences (400,000–2 million) so ad sets don't cannibalize one another or saturate the market. The 80K audiences are far too small. The one-ad-per-ad-set rule and the high ad-set count (up to 180) are both correct for this method.",
+      "difficulty": 3
+    },
+    {
+      "id": "adset_structure_budget-d6",
+      "kind": "mcq",
+      "scenario": "A coach is running a Page Likes (Like) campaign to grow her warm audience before a product launch. She set it to consume 40% of her total ad budget, picked CPM bidding to 'keep costs predictable', and manually selected Instagram and Audience Network placements.",
+      "question": "Which set of corrections best aligns her Like campaign with the module's guidance?",
+      "options": [
+        "Keep 40% spend, switch to CPC bidding, and add Messenger placements",
+        "Cut Like spend to 5–10% of total, use Automatic Placements (IG/Audience Network/Messenger are ineligible for Like campaigns), and start at ~$10/day per ad set with automatic bidding",
+        "Raise Like spend to 50%, keep CPM, and restrict to desktop-only placements",
+        "Keep everything as-is; Like campaigns are exempt from budget-share and placement rules"
+      ],
+      "answer": 1,
+      "explanation": "Like campaign specifics (Ch. 11): Like campaigns should consume only 5–10% of total budget (not 40%), start at ~$10/day per ad set with automatic bidding, and use Automatic Placements because Instagram, Audience Network, and Messenger are ineligible for Like campaigns. CPM is brand-oriented and not the recommended bid type here.",
+      "difficulty": 2
+    }
+  ]
+}

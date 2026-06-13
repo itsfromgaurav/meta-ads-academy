@@ -1,0 +1,182 @@
+{
+  "domain": "account_setup",
+  "module_title": "Account Setup",
+  "cards": [
+    {
+      "id": "account-setup-page-not-profile",
+      "type": "pitfall",
+      "title": "Page vs Profile",
+      "front": "You're about to run ads from your Facebook account. How do you know it's even the right kind of account?",
+      "back": "You must run ads from a business Page, NOT a personal Profile. Quick way to tell them apart:\n- Profiles have \"Friends\"\n- Pages have \"Likes\"\nNever advertise from a personal Profile.",
+      "example": "Logged in and see 'Friends'? That's a Profile — stop and create a Page instead.",
+      "tags": ["page", "profile", "fundamentals"],
+      "difficulty": 1,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-minimum-prerequisites",
+      "type": "checklist",
+      "title": "Minimum Prerequisites to Run Campaigns",
+      "front": "What is the bare minimum you need in place before a single campaign can go live?",
+      "back": "Three things must exist before running campaigns:\n- Facebook Page (business Page, not a personal profile)\n- Ad account\n- Your unique selling system",
+      "example": "",
+      "tags": ["prerequisites", "checklist", "campaign"],
+      "difficulty": 1,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-foundation-sequence",
+      "type": "framework",
+      "title": "Foundational Setup Sequence",
+      "front": "The author built a 3-division brand and grew it on essentially ONE ad. What exact 9-step foundation came first?",
+      "back": "The complete ordered foundation before any campaign goes live:\n- 1. Buy a new domain (e.g., GoDaddy)\n- 2. Install WordPress / set up the site\n- 3. Build the landing pages\n- 4. Create a new Facebook Page\n- 5. Create a new Business Manager account\n- 6. Create a new ad account\n- 7. Set up tracking (pixel + conversion tracking) ASAP\n- 8. Create a lead magnet (one per business division)\n- 9. Create and publish the campaign(s)",
+      "example": "Three divisions: a local PT gym, a digital product business (meal plans & programs), and an ecommerce division.",
+      "tags": ["framework", "foundation", "sequence"],
+      "difficulty": 1,
+      "chapter": "Ch. 2 / Ch. 3"
+    },
+    {
+      "id": "account-setup-create-page-steps",
+      "type": "checklist",
+      "title": "Create a Facebook Business Page",
+      "front": "What are the steps to stand up a brand-new Facebook business Page?",
+      "back": "- 1. Go to https://www.facebook.com/pages/create/ and choose a Page type\n- 2. Choose a Category (you can change type and category later)\n- 3. Give your Page a name and click Get Started\n- 4. Add a profile picture, cover photo, and description before sharing\n- 5. Create a username so people can find it in search (must not already be taken)\n- 6. Post some content to show you're active",
+      "example": "",
+      "tags": ["page", "setup", "checklist"],
+      "difficulty": 1,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-page-completeness",
+      "type": "checklist",
+      "title": "Page Completeness Before Promoting",
+      "front": "Before you drive a single visitor to your Page, what 5 things must be filled in?",
+      "back": "Complete the Page profile before promoting it:\n- Profile picture\n- Cover photo\n- Business description\n- Username (searchable, not already taken)\n- At least some posted content\nThis shows you're active and ready for business.",
+      "example": "Don't promote an empty Page — build it out fully before driving traffic.",
+      "tags": ["page", "checklist", "best-practice"],
+      "difficulty": 1,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-business-manager-why",
+      "type": "concept",
+      "title": "Why Business Manager",
+      "front": "Why bother setting up Business Manager instead of just running ads off your Page?",
+      "back": "Business Manager is Facebook's recommended platform for managing ads. It lets you:\n- Easily grant access to anyone who works on your Page or ads\n- Link all your Facebook assets in one place, which signals to Facebook that you're a legitimate business",
+      "example": "",
+      "tags": ["business-manager", "concept", "legitimacy"],
+      "difficulty": 1,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-create-business-manager",
+      "type": "checklist",
+      "title": "Set Up Business Manager",
+      "front": "How do you create your Business Manager account from scratch?",
+      "back": "- 1. Go to https://business.facebook.com/ and click Create Account\n- 2. Log in with your personal Facebook details\n- 3. Add your business name, your name, and business email\n- 4. Click Business Settings to add your Page and ad account",
+      "example": "",
+      "tags": ["business-manager", "setup", "checklist"],
+      "difficulty": 1,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-add-page-to-bm",
+      "type": "tactic",
+      "title": "Add Your Page to Business Manager",
+      "front": "You've got Business Manager open. How do you pull your existing Page into it?",
+      "back": "In Business Settings:\n- Hover the left column of icons and select Pages first\n- Click Add New Pages -> Add a Page\n- Start typing your Page name (it auto-populates) and click Add Page\nBecause you're already an admin on your Page, it is approved automatically.",
+      "example": "",
+      "tags": ["business-manager", "page", "tactic"],
+      "difficulty": 2,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-add-existing-ad-account",
+      "type": "tactic",
+      "title": "Add an Existing Ad Account",
+      "front": "You already have an ad account. Where do you find the ID needed to add it to Business Manager?",
+      "back": "- In Business Settings: Ad Accounts -> Add New Ad Accounts -> Add an Ad Account\n- You need the Ad Account ID: open the ad account in another tab and look at the URL\n- You'll see ACT= followed by a string of numbers — those numbers are the Ad Account ID\n- Copy/paste that string into the account ID field and click Add Ad Account",
+      "example": "URL contains ACT=123456789 -> the Ad Account ID is 123456789.",
+      "tags": ["ad-account", "business-manager", "tactic"],
+      "difficulty": 2,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-create-new-ad-account",
+      "type": "tactic",
+      "title": "Create a New Ad Account",
+      "front": "What three settings does Facebook demand when you spin up a brand-new ad account?",
+      "back": "In Business Settings: Ad Accounts -> Add New Ad Accounts -> Create a New Ad Account. You'll be prompted for:\n- Name\n- Time zone\n- Currency\nThen click Create Ad Account.",
+      "example": "",
+      "tags": ["ad-account", "business-manager", "tactic"],
+      "difficulty": 2,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-timezone-currency-permanent",
+      "type": "pitfall",
+      "title": "Time Zone & Currency Are Permanent",
+      "front": "Which two ad account settings can NEVER be changed once you click Create?",
+      "back": "Time zone and currency are permanent. You CANNOT change either once the ad account is created — get them right the first time.",
+      "example": "Pick the wrong currency and your only fix is creating a whole new ad account.",
+      "tags": ["ad-account", "pitfall", "settings"],
+      "difficulty": 2,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-pixel-asap",
+      "type": "tactic",
+      "title": "Set Up Pixel ASAP",
+      "front": "When is the right moment to install your pixel — and why not wait?",
+      "back": "Set up your pixel ASAP, right after creating the ad account. A new ad account prompts you to set up the pixel — just follow the prompts. Doing it early means you start accumulating tracking, audience, and optimization data as soon as possible.",
+      "example": "",
+      "tags": ["pixel", "tracking", "best-practice"],
+      "difficulty": 2,
+      "chapter": "Ch. 25"
+    },
+    {
+      "id": "account-setup-add-people",
+      "type": "tactic",
+      "title": "Add Team Members to Business Manager",
+      "front": "How do you give an employee access to your Pages and ad accounts?",
+      "back": "- People -> Add New People (top-left icon)\n- Enter the person's email address\n- Select whether they will be an admin or an employee\n- Click Add People, then assign the relevant Pages and Ad Accounts and click Next\n- They get an email invite; once accepted, they can work on the assets you allocated",
+      "example": "",
+      "tags": ["access", "team", "business-manager"],
+      "difficulty": 2,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-add-partner-business-id",
+      "type": "tactic",
+      "title": "Add an Agency as a Partner",
+      "front": "An outside agency needs access. What single piece of info do you ask them for, and where do they find it?",
+      "back": "Use their Business ID — found in their Business Manager URL as the numbers after ?business_id=. To add:\n- Select your Page or Ad Account in Business Manager settings\n- Click Assign Partner\n- Choose \"Connect your Page/Ad Account using your partner's business ID instead\"\n- Insert the ID they gave you\nThey're added with whatever Role you choose.",
+      "example": "URL contains ?business_id=987654321 -> the Business ID is 987654321.",
+      "tags": ["access", "partner", "agency"],
+      "difficulty": 3,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-link-all-assets",
+      "type": "tactic",
+      "title": "Link All Assets in Business Manager",
+      "front": "Beyond convenience, what strategic signal do you send by linking every asset in Business Manager?",
+      "back": "Link all assets (Page, ad account, pixel) in Business Manager. It:\n- Makes granting team/agency access easy\n- Signals to Facebook that you're a legitimate business",
+      "example": "",
+      "tags": ["business-manager", "legitimacy", "best-practice"],
+      "difficulty": 2,
+      "chapter": "Ch. 9"
+    },
+    {
+      "id": "account-setup-protect-ad-account",
+      "type": "pitfall",
+      "title": "Don't Risk Your Ad Account",
+      "front": "Why should you treat your ad account like one of your most valuable business assets?",
+      "back": "Treat the Facebook ad account as a valuable business asset: \"Make sure you thoroughly read Facebook ad policies and abide by them at all times so that you can guarantee the health and longevity of your ad account and ultimately of your business.\" A banned account can take the business down with it.",
+      "example": "",
+      "tags": ["ad-account", "policy", "pitfall"],
+      "difficulty": 3,
+      "chapter": "Ch. 17"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "domain": "boosted_posts",
+  "module_title": "Boosted Posts",
+  "cards": [
+    {
+      "id": "boosted_posts-what-is-boosting",
+      "type": "concept",
+      "title": "Facebook's Big Easy Button",
+      "front": "What's the lowest-barrier way to start advertising on Facebook?",
+      "back": "Boosting a post — Facebook's \"Big Easy Button.\" It's the simplest way to start advertising, done directly from your business page. The mechanics are easy, but it still requires the right content in front of the right people: the button lowers the barrier to testing, it does NOT replace fundamentals.",
+      "example": "",
+      "tags": ["boosting", "getting-started", "fundamentals"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-how-to-boost-steps",
+      "type": "framework",
+      "title": "How to Boost a Post (4 Steps)",
+      "front": "What are the exact 4 steps to boost a post?",
+      "back": "Done directly from your business page:\n- Add content to your page\n- Click the big blue \"Boost Post\" button\n- Select your audience\n- Assign a budget\n\nThat's it — the lowest-barrier first step into Facebook advertising.",
+      "example": "",
+      "tags": ["boosting", "how-to", "steps"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-dollar-a-day",
+      "type": "benchmark",
+      "title": "Dennis Yu's Dollar a Day",
+      "front": "What's the minimal boost budget for testing hooks cheaply?",
+      "back": "Dennis Yu's \"Dollar a Day\": $1/day for 7 days. It's the easiest way to quickly test different hooks and audiences and stack posts against each other. Larry Kim's alternative: test each post with a $50 budget before scaling winners.",
+      "example": "Boost five candidate posts at $1/day for 7 days each, then put more spend behind the winner.",
+      "tags": ["budget", "testing", "benchmark", "dennis-yu"],
+      "difficulty": 1,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-what-boosting-is-great-for",
+      "type": "concept",
+      "title": "What Boosting Is Great For",
+      "front": "When should you reach for a boosted post?",
+      "back": "Boosted posts are great for:\n- Testing fast\n- Testing with small budgets\n- Testing different hooks\n- Testing different audiences\n- Building social proof\n- Engaging more with your market and the people who influence it\n\nInstead of guessing how your market responds, let the Facebook data tell you what's good and bad.",
+      "example": "",
+      "tags": ["boosting", "testing", "use-cases"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-boosting-multiplies",
+      "type": "concept",
+      "title": "Boosting Multiplies Results",
+      "front": "What does boosting actually do to a post's performance?",
+      "back": "Boosting is just MULTIPLYING a post. Boost a video with bad organic results and you push terrible results to more people; boost one with great results and your numbers go through the roof. That's why you measure organically FIRST, then put ad dollars only behind proven winners.",
+      "example": "",
+      "tags": ["boosting", "concept", "validation"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-unicorns-vs-donkeys",
+      "type": "concept",
+      "title": "Unicorns vs Donkeys",
+      "front": "What's a \"unicorn\" and why chase it over a \"donkey\"?",
+      "back": "A home-run post is a \"unicorn\" — you won't hit it out of the park every time. A poor performer is a \"donkey.\" Larry Kim and Dennis Yu spend the bulk of their time cultivating winners (unicorns) rather than coaxing donkeys to fly. Test many posts cheaply, find the rare winners, and amplify those.",
+      "example": "",
+      "tags": ["unicorns", "quality-over-quantity", "concept"],
+      "difficulty": 1,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-social-proof-authority",
+      "type": "concept",
+      "title": "Boosting Builds Social Proof",
+      "front": "How does boosting build authority?",
+      "back": "Boosting builds likes, shares, and fans — social proof that gives you authority because people trust you more when they see others trust you. Boosting posts and Like Campaigns are typically among the CHEAPEST ways to build this social proof.",
+      "example": "",
+      "tags": ["social-proof", "authority", "boosting"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-local-top-of-mind",
+      "type": "tactic",
+      "title": "Local Top-of-Mind Awareness",
+      "front": "How do local businesses use boosted posts even without instant calls?",
+      "back": "Great for restaurants, dentists, chiropractors, lawyers, cosmetic surgeons, locksmiths, etc. Boost personal-story posts; it may not make the phone ring instantly, but the consistency and top-of-mind awareness mean people think of you when the need arises.",
+      "example": "A locksmith boosts a \"Hey, I'm Ralph\" story post so locals remember him when they get locked out.",
+      "tags": ["local-business", "top-of-mind", "tactic"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-local-story-template",
+      "type": "template",
+      "title": "Local-Business Personal-Story Template",
+      "front": "What does a top-of-mind personal-story boosted post look like?",
+      "back": "Personal-story hook for local businesses:\n\n\"Hey, I'm Ralph, and I'm a locksmith. I've been doing this for 20 years. I've got three vans. [Then tell the rest of your story, or talk about how you recently solved a problem your potential customers might be experiencing.]\"",
+      "example": "",
+      "tags": ["template", "local-business", "copy"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-pizzeria-no-tech",
+      "type": "template",
+      "title": "Pizzeria / No-Tech-Skill Template",
+      "front": "Can a non-technical owner who doesn't know WordPress succeed with boosting?",
+      "back": "Yes — boosting needs no technical skill. The pizzeria-owner case study: an owner who doesn't even know WordPress succeeds simply by boosting photos of food to relevant local audiences (including targeting the audience of local-newspaper food critics).\n\nJust post pictures of food:\n\"Hey, tonight, check out this lasagna.\"\n\"Check out what we have on Mother's Day.\"",
+      "example": "",
+      "tags": ["template", "local-business", "no-tech"],
+      "difficulty": 1,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-validate-organically-first",
+      "type": "tactic",
+      "title": "Measure Organically First",
+      "front": "Before spending ad dollars, what must you do?",
+      "back": "Measure organically FIRST, then put ad dollars only behind proven winners. Tune different audience combos for proven posts instead of creating tons of new posts. Boosting multiplies whatever results you already have — so validate before you amplify.",
+      "example": "",
+      "tags": ["validation", "tactic", "testing"],
+      "difficulty": 2,
+      "chapter": "Facebook Easy Button: Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-influence-the-influencers",
+      "type": "tactic",
+      "title": "Influence the Influencers (Journalist Approach)",
+      "front": "Why target people who aren't your direct customers?",
+      "back": "Approach boosted posts like a journalist: target the people who can INFLUENCE your customers — magazine/radio/newspaper/TV staff, bloggers, conference attendees. Targeting these multipliers amplifies reach beyond direct customers.",
+      "example": "A pizzeria targets the audience of local-newspaper food critics, not just hungry locals.",
+      "tags": ["influencers", "journalist", "tactic"],
+      "difficulty": 2,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-switch-boost",
+      "type": "framework",
+      "title": "Switch-Boost",
+      "front": "How do you redirect a winning post to a new audience without losing its social proof?",
+      "back": "Switch-boost: Originally boost a post to a broad interest/behavioral target to get high engagement cheaply (stimulating the algorithm) and build social proof. Then SWITCH the audience of that same boosted post to a new, more strategic audience. The post KEEPS all existing social proof (likes, comments, shares), creating a rolling snowball effect you can redirect at will. You can switch-boost multiple times — even to capitalize on current events.",
+      "example": "Switch older boosted posts to Social Media Examiner fans for a couple of weeks before speaking at Social Media Marketing World.",
+      "tags": ["switch-boost", "dennis-yu", "social-proof", "framework"],
+      "difficulty": 2,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-media-inception",
+      "type": "framework",
+      "title": "Media Inception Audience",
+      "front": "What's a \"media inception\" audience and why redirect a post toward it?",
+      "back": "A media inception audience is a strategic influencer/multiplier audience — people who can influence your customers — that you redirect a switch-boosted post toward. By aiming proven, social-proof-loaded content at multipliers, you amplify reach far beyond direct customers.",
+      "example": "",
+      "tags": ["media-inception", "influencers", "dennis-yu", "framework"],
+      "difficulty": 2,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-unicorn-baby",
+      "type": "framework",
+      "title": "Unicorn Baby",
+      "front": "Once you have one unicorn, how do you spawn many more?",
+      "back": "A unicorn baby is a derivative of a home-run post. Once you have one unicorn, create many variants by:\n- (a) Switching the audience of the boost\n- (b) Duplicating the ad set to run against two audiences at once\n- (c) Creating derivative (similar/related) content to replicate the effect\n\nWhen you earn media coverage, share/boost their post to your media inception targets to amplify and spawn more unicorn babies.",
+      "example": "",
+      "tags": ["unicorn-baby", "scaling", "dennis-yu", "framework"],
+      "difficulty": 3,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-amplification-system",
+      "type": "framework",
+      "title": "Dennis Yu Amplification System",
+      "front": "What three components fit together to compound one winning post's reach?",
+      "back": "Dennis Yu's amplification system takes one winning post and compounds its reach while preserving accumulated social proof:\n- Switch-boost — boost broad for cheap engagement + social proof, then switch the audience\n- Media inception audience — the strategic influencer/multiplier audience you redirect toward\n- Unicorn baby — spawn derivative variants (switch audience, duplicate ad set, or derivative content)",
+      "example": "",
+      "tags": ["amplification", "dennis-yu", "system", "framework"],
+      "difficulty": 3,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-greatest-hits-reboost",
+      "type": "tactic",
+      "title": "Re-Boost Evergreen Greatest Hits",
+      "front": "Why is boosting never one-and-done?",
+      "back": "Keep a \"greatest hits\" list of your most successful posts — like favorite songs, replay them. If something worked well before, it'll work again as long as the content is evergreen. Look at what's done well over the last 24 MONTHS, switch-boost it, and create similar versions — far less effort than attempting a \"moonshot\" every day.",
+      "example": "",
+      "tags": ["greatest-hits", "evergreen", "re-boost", "tactic"],
+      "difficulty": 2,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-evergreen-lookback",
+      "type": "benchmark",
+      "title": "24-Month Evergreen Look-Back",
+      "front": "How far back should you mine for evergreen winners to re-boost?",
+      "back": "Last 24 months. Review what's done well over the last 24 months, then switch-boost it and create similar versions. This compounds proven content instead of starting from scratch.",
+      "example": "",
+      "tags": ["evergreen", "benchmark", "lookback"],
+      "difficulty": 2,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-test-and-scale-checklist",
+      "type": "checklist",
+      "title": "Dollar-a-Day Test-and-Scale Workflow",
+      "front": "What's the full workflow from organic post to scaled unicorn?",
+      "back": "Dollar-a-day test-and-scale workflow:\n- Publish posts organically and measure organic results first\n- Stack worthy posts against each other by boosting each at $1/day for 7 days (or test each at $50 — Larry Kim's method)\n- Compare reach and engagement across the boosted posts\n- Identify the winners (\"unicorns\"); ignore the \"donkeys\"\n- Put more spend behind the winners\n- Switch-boost winners to strategic / influencer (media inception) audiences, preserving social proof\n- Create \"unicorn babies\": switch audience, duplicate the ad set against a second audience, and/or make derivative content\n- Add winners to a \"greatest hits\" list and re-boost evergreen ones (look back over the last 24 months)",
+      "example": "",
+      "tags": ["checklist", "workflow", "scaling"],
+      "difficulty": 3,
+      "chapter": "More Boosted Posts"
+    },
+    {
+      "id": "boosted_posts-pitfall-boost-losers",
+      "type": "pitfall",
+      "title": "Pitfall: Don't Boost Losers",
+      "front": "What's the most expensive mistake when boosting?",
+      "back": "Don't boost losers. Boosting multiplies results — pushing a poor-performing post to more people just buys worse results at scale. Validate organically first, then amplify only proven winners.",
+      "example": "",
+      "tags": ["pitfall", "validation", "boosting"],
+      "difficulty": 2,
+      "chapter": "Pitfalls"
+    },
+    {
+      "id": "boosted_posts-pitfall-daily-moonshot",
+      "type": "pitfall",
+      "title": "Pitfall: Don't Chase a Daily Moonshot",
+      "front": "Why is trying to create a new home run every day a trap?",
+      "back": "Don't chase a daily \"moonshot.\" Coaxing \"donkeys\" to fly wastes effort; cultivating proven unicorns is higher ROI. Favor quality over quantity — amplify and re-boost the rare winners you already have instead of straining for a new hit each day.",
+      "example": "",
+      "tags": ["pitfall", "quality-over-quantity", "unicorns"],
+      "difficulty": 2,
+      "chapter": "Pitfalls"
+    },
+    {
+      "id": "boosted_posts-pitfall-not-a-substitute",
+      "type": "pitfall",
+      "title": "Pitfall: Boost Button Isn't a Substitute for Fundamentals",
+      "front": "Does the easy Boost button let you skip the fundamentals?",
+      "back": "No. Don't treat the Boost button as a substitute for fundamentals. It only lowers the barrier to testing — you still need the right content in front of the right people.",
+      "example": "",
+      "tags": ["pitfall", "fundamentals", "boosting"],
+      "difficulty": 2,
+      "chapter": "Pitfalls"
+    },
+    {
+      "id": "boosted_posts-pitfall-one-and-done",
+      "type": "pitfall",
+      "title": "Pitfall: Don't Treat Boosting as One-and-Done",
+      "front": "What happens if you boost a winner once and move on?",
+      "back": "Don't treat boosting as one-and-done. Re-boost and switch-boost evergreen winners; don't let proven content go stale. Keep replaying your greatest hits.",
+      "example": "",
+      "tags": ["pitfall", "evergreen", "re-boost"],
+      "difficulty": 2,
+      "chapter": "Pitfalls"
+    }
+  ]
+}

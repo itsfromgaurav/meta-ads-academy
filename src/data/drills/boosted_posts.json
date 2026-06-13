@@ -1,0 +1,100 @@
+{
+  "domain": "boosted_posts",
+  "module_title": "Boosted Posts",
+  "drills": [
+    {
+      "id": "boosted_posts-d1",
+      "kind": "mcq",
+      "scenario": "Maria owns a neighborhood pizzeria and has zero technical skill (she doesn't even know WordPress). She has a Facebook page with 12 organic posts from the last two months. She wants to start running ads but is intimidated by Ads Manager. She has $7 to spend this week as a test.",
+      "question": "What is the single most appropriate first move for Maria, given the module's philosophy?",
+      "options": [
+        "Hire an agency to build a full Ads Manager funnel before she spends a dollar",
+        "Boost her best-performing organic food photo at $1/day for 7 days directly from her page",
+        "Boost all 12 posts at once to maximize coverage of her neighborhood",
+        "Wait until she learns WordPress and conversion tracking before advertising"
+      ],
+      "answer": 1,
+      "explanation": "The Boost button is Facebook's 'Big Easy Button' — the lowest-barrier first step into advertising, requiring no technical skill. The pizzeria-owner case study proves a non-technical owner can succeed simply by boosting food photos. Dennis Yu's 'dollar a day' ($1/day for 7 days) is the recommended cheap test budget, and you should boost a proven winner, not all posts indiscriminately.",
+      "difficulty": 1
+    },
+    {
+      "id": "boosted_posts-d2",
+      "kind": "mcq",
+      "scenario": "A Shopify pet-supplies brand published a new product video organically. Over 5 days it got almost no organic views, weak watch time, and two comments — clearly underwhelming engagement. The marketing intern says, 'It's not getting reach, so let's throw $200 of boost behind it to force it out there.'",
+      "question": "Diagnose this plan. What's the core mistake, and what should they do instead?",
+      "options": [
+        "The plan is fine — boosting always fixes low organic reach",
+        "Boosting multiplies whatever results a post already has, so spending behind a weak organic post just buys worse results at scale; they should boost a proven winner instead",
+        "The budget is too small; they should spend $2,000 to overpower the weak start",
+        "They should boost it but only to a lookalike audience to fix the engagement"
+      ],
+      "answer": 1,
+      "explanation": "Pitfall: 'Don't boost losers.' Boosting is just multiplying a post — boost a video with bad organic results and you push terrible results to more people. The rule is measure organically FIRST, then put ad dollars only behind proven winners ('unicorns'), not coax 'donkeys' to fly.",
+      "difficulty": 2
+    },
+    {
+      "id": "boosted_posts-d3",
+      "kind": "order",
+      "scenario": "Devon, a business coach, wants to use the dollar-a-day test-and-scale workflow to find a winning post he can amplify before his next webinar launch. He has several recent posts and wants to follow the module's checklist in the correct sequence.",
+      "question": "Put the dollar-a-day test-and-scale workflow steps in the correct order.",
+      "options": [
+        "Publish posts organically and measure organic results first",
+        "Stack worthy posts against each other by boosting each at $1/day for 7 days",
+        "Compare reach and engagement across the boosted posts",
+        "Identify the winners ('unicorns') and ignore the 'donkeys'",
+        "Put more spend behind the winners",
+        "Switch-boost winners to strategic / influencer (media inception) audiences, preserving social proof",
+        "Add winners to a 'greatest hits' list and re-boost evergreen ones"
+      ],
+      "answer": [],
+      "explanation": "The dollar-a-day workflow runs: measure organically first, boost worthy posts at $1/day for 7 days, compare reach/engagement, identify unicorns vs donkeys, put more spend behind winners, switch-boost winners to media-inception audiences (preserving social proof), then add them to a greatest-hits list for re-boosting. You must validate organically before spending, and you can only switch-boost after a winner is identified.",
+      "difficulty": 2
+    },
+    {
+      "id": "boosted_posts-d4",
+      "kind": "mcq",
+      "scenario": "A SaaS founder finally has a 'unicorn' — a post that crushed it after being boosted broadly, accumulating 1,400 likes, 230 comments, and 90 shares. She now wants to put it in front of a curated list of tech journalists and podcast hosts (her 'media inception' audience) WITHOUT losing all that accumulated engagement.",
+      "question": "Which technique does the module prescribe for this exact situation?",
+      "options": [
+        "Create a brand-new post copying the text and boost that to the journalists",
+        "Switch-boost: change the audience of the same boosted post to the new strategic audience, keeping all existing social proof",
+        "Delete the comments and start fresh with the new audience to avoid bias",
+        "Run a separate Like Campaign to the journalists instead of boosting the post"
+      ],
+      "answer": 1,
+      "explanation": "Switch-boost: you originally boost to a broad audience to build social proof cheaply, then SWITCH the audience of that SAME boosted post to a new strategic (media inception) audience. The post keeps all existing likes, comments, and shares — a rolling snowball you can redirect at will. Creating a new post would discard the accumulated social proof.",
+      "difficulty": 2
+    },
+    {
+      "id": "boosted_posts-d5",
+      "kind": "multi",
+      "scenario": "A local chiropractor's clinic has one proven unicorn post (a patient success story) that performed great when boosted last quarter. The marketing manager wants to spawn 'unicorn babies' to keep the momentum going across multiple audiences.",
+      "question": "According to the unicorn-baby method, which of these are valid ways to create unicorn babies from a proven winner? (Select all that apply.)",
+      "options": [
+        "Switch the audience of the existing boost to a new target",
+        "Duplicate the ad set to run the post against two audiences at once",
+        "Create derivative (similar/related) content that replicates the effect",
+        "Stop boosting the winner so the audience doesn't get tired of seeing success",
+        "Boost a known low-performing 'donkey' post alongside it to compare"
+      ],
+      "answer": [0, 1, 2],
+      "explanation": "Once you have a unicorn, you create unicorn babies by: (a) switching the audience of the boost, (b) duplicating the ad set to run against two audiences at once, and (c) creating derivative similar/related content. Stopping the winner contradicts the 'don't treat boosting as one-and-done' principle, and boosting a donkey wastes spend.",
+      "difficulty": 3
+    },
+    {
+      "id": "boosted_posts-d6",
+      "kind": "mcq",
+      "scenario": "It's June 2026. A fitness coach is hunting for content to re-boost ahead of a summer challenge launch. She remembers a personal-transformation post that performed extremely well but isn't sure how far back she's allowed to dig, and worries old posts are 'stale.'",
+      "question": "What does the 'greatest hits' / evergreen re-boosting guidance tell her to do?",
+      "options": [
+        "Only re-boost content from the last 30 days; anything older is stale",
+        "Look back over the last 24 months for what's done well, then switch-boost it and create similar versions",
+        "Never re-boost old content — always create a brand-new 'moonshot' post each day",
+        "Re-boost only paid winners, never organic ones, regardless of age"
+      ],
+      "answer": 1,
+      "explanation": "Re-boost evergreen 'greatest hits': keep a list of your most successful posts and replay them like favorite songs. Review what's done well over the last 24 months, switch-boost it, and create similar versions — far less effort than chasing a daily 'moonshot.' If it's evergreen and worked before, it'll work again.",
+      "difficulty": 1
+    }
+  ]
+}

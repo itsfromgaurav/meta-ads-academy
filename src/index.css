@@ -1,0 +1,49 @@
+@import '@fontsource/space-grotesk/400.css';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/700.css';
+@import '@fontsource/geist-sans/300.css';
+@import '@fontsource/geist-sans/400.css';
+@import '@fontsource/geist-sans/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #05050A;
+  color: #fff;
+  font-family: 'Geist Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+/* dot-matrix breathing field (DOM fallback for the design's WebGL accent) */
+.dotfield {
+  background-image: radial-gradient(rgba(99, 102, 241, 0.18) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* gradient border shell — the design's hero edge treatment */
+.shell {
+  background: linear-gradient(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0));
+  padding: 1px;
+  border-radius: 3px;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 9999px; }
